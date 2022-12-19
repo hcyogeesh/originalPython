@@ -51,3 +51,5 @@ def circuitPower(voltage, current):
 print(circuitPower(230,10))
 print(circuitPower(110,3))
 print(circuitPower(480,20))
+
+# The program is complete.
