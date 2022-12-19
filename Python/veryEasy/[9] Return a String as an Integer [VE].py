@@ -59,4 +59,12 @@ def stringToInt(str1=str):
         if int(str1) is not int:
             return "Please input a whole number."
         else:
-            return int()
+            return int(str1)
+
+print(stringToInt("6"))
+print(stringToInt("1000"))
+print(stringToInt("12"))
+# To check their types to verify whether they are being correct or not.
+print(type(stringToInt("6")))
+print(type(stringToInt("1000")))
+print(type(stringToInt("12")))
