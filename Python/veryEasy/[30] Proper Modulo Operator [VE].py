@@ -40,3 +40,13 @@ _________
 """ 
 # Your code should go here:
 
+def mod(num1, num2):
+    return (num1 % num2)
+
+print(mod(-13, 64))
+print(mod(50, 25))
+print(mod(-6, 3))
+print(mod(33, 11))
+print(mod(11,2))
+
+# The program is complete.
