@@ -69,5 +69,11 @@ def converterDataType(input1):
     except:
         def toStr(input1):
             return str(input1)
-    finally:
-        
+    else:
+        return type(toInt(Input1))
+
+print(converterDataType(77))
+print(converterDataType(532))
+print(converterDataType("532"))
+print(converterDataType("77"))
+
