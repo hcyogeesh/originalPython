@@ -52,3 +52,7 @@ _________
 
 def countKeys(dict):
     count = 0
+    for i in enumerate(dict):
+        count += 1
+    return count
+
