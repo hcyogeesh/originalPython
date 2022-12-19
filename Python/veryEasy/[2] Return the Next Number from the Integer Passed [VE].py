@@ -55,3 +55,9 @@ _________
 """ 
 # Your code should go here:
 
+def addOne(int1):
+    return int1 + 1
+
+print(addOne(0))
+print(addOne(9))
+print(addOne(-3))
