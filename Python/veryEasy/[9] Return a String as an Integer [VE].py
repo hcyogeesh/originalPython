@@ -54,5 +54,9 @@ _________
 """ 
 # Your code should go here:
 
-def stringToInt(str1):
-    if str1 > 0 and str1 == type(int)
+def stringToInt(str1=str):
+    if str1 > 0:
+        if int(str1) is not int:
+            return "Please input a whole number."
+        else:
+            return int()
