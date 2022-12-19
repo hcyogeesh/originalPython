@@ -70,3 +70,11 @@ _________
 """ 
 # Your code should go here:
 
+def firstElement(list1):
+    return list1[0]
+
+print(firstElement([1, 2, 3]))
+print(firstElement([80, 5, 100]))
+print(firstElement([-500,0,50]))
+
+# The program is complete.
