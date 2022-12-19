@@ -51,3 +51,5 @@ def concatSomething(input1):
 print(concatSomething("is better than nothing"))
 print(concatSomething("Nitkarsh"))
 print(concatSomething("everything is fair in life and in death maybe"))
+
+# The program is complete.
