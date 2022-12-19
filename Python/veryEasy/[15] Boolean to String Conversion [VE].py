@@ -58,3 +58,12 @@ _________
 """ 
 # Your code should go here:
 
+def boolToStr(bool):
+    return (str(bool))
+
+print(boolToStr(True))
+print(boolToStr(False))
+print(type(boolToStr(True)))
+print(type(boolToStr(False)))
+
+# The program is complete.
