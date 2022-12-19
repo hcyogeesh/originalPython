@@ -64,3 +64,11 @@ _________
 """ 
 # Your code should go here:
 
+def cubes(input1):
+    return (input1 ** 3)
+
+print(cubes(3))
+print(cubes(5))
+print(cubes(10))
+
+# The program is complete.
