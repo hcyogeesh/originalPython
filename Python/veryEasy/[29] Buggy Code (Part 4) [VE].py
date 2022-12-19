@@ -50,3 +50,7 @@ _________
 """ 
 # Your code should go here:
 
+# Will have to introduce a lower function something.
+
+def specGreet(name1):
+    if name1.lower() == ""
