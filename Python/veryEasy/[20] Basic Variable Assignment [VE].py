@@ -1,7 +1,8 @@
 """
 ##Basic Variable Assignment
 
-A student learning Python was trying to make a function. His code should concatenate a passed string name with string "Edabit" and store it in a variable called result. He needs your help to fix this code.
+A student learning Python was trying to make a function. His code should concatenate a passed string name with string
+"Edabit" and store it in a variable called result. He needs your help to fix this code.
 
 
 [Examples]
@@ -52,6 +53,16 @@ Python Assignment Operators (=)
 https://www.tutorialspoint.com/python/assignment_operators_example.htm
 Assigns values from right side operands to left side operand.
 _________
-""" 
+"""
+
+
 # Your code should go here:
 
+def concatString(str1=str):
+    return str1 + "Edabit"
+
+
+print(concatString("Nitkarsh"))
+print((concatString("Anmol")))
+print(concatString("Pallavi"))
+print(concatString("Purshotam"))
