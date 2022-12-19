@@ -59,3 +59,12 @@ _________
 """ 
 # Your code should go here:
 
+def totalPolyAngle(sides):
+    if sides <= 2:
+        return "Please input n bigger than 2."
+    else:
+        return((sides-2) * 180)
+
+print(totalPolyAngle(3))
+print(totalPolyAngle(4))
+print(totalPolyAngle(6))
