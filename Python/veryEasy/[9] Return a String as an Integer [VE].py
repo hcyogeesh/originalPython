@@ -68,4 +68,6 @@ print(stringToInt(9999))
 print(type(stringToInt("6")))
 print(type(stringToInt("1000")))
 print(type(stringToInt("12")))
-print(type(stringToInt(9999)))
+print(type(stringToInt(9999)))  # This thing I found out is awesome.
+
+# Program is complete.
