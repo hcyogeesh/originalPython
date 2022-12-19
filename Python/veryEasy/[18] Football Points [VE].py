@@ -51,3 +51,9 @@ _________
 """ 
 # Your code should go here:
 
+def fbPoints(wins, draws, losses):
+    return ((wins * 3) + (draws * 1) + (losses * 0))
+
+print(fbPoints(3,4,2))
+print(fbPoints(5,0,2))
+print(fbPoints(0,0,1))
