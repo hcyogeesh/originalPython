@@ -50,3 +50,5 @@ _________
 """ 
 # Your code should go here:
 
+def countKeys(dict):
+    count = 0
