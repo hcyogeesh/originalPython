@@ -49,3 +49,12 @@ _________
 """ 
 # Your code should go here:
 
+def squared(num1):
+    return (num1 ** 2)
+
+print(squared(2))
+print(squared(5))
+print(squared(9))
+print(squared(100))
+
+# The program is complete.
