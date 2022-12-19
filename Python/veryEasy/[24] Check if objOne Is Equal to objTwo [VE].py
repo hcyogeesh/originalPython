@@ -86,4 +86,21 @@ print(isEqual({
   "name": "Benny",
   "phone": "3325558745",
   "email": "benny@edabit.com"
+},{
+  "name": "Jason",
+  "phone": "9853759720",
+  "email": "jason@edabit.com"
 }))
+
+obj1 = { 
+  "name": "Jason",
+  "phone": "9853759720",
+  "email": "jason@edabit.com"
+}
+obj2 = {
+  "name": "Jason",
+  "phone": "9853759720",
+  "email": "jason@edabit.com"
+}
+
+print(isEqual(obj1, obj2))
