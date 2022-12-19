@@ -65,3 +65,14 @@ _________
 """ 
 # Your code should go here:
 
+def thirdEdge(side1, side2):
+    if side1 > 0 and side2 > 0:
+        return ((side1 + side2)-1)
+    else:
+        return "No negative inputs allowed"
+
+print(thirdEdge(8,10))
+print(thirdEdge(5,7))
+print(thirdEdge(9,2))
+
+# The program is complete.
