@@ -42,3 +42,4 @@ _________
 """ 
 # Your code should go here:
 
+def nSqSum(input1):
