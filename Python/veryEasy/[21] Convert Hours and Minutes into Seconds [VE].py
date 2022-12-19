@@ -55,3 +55,5 @@ _________
 """ 
 # Your code should go here:
 
+def hrMinToSecAdd(hours, minutes):
+    
