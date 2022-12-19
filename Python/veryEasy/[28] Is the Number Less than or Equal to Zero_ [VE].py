@@ -79,5 +79,6 @@ def zerOrLess(num1):
 print(zerOrLess(5))
 print(zerOrLess(0))
 print(zerOrLess(-5))
+print(zerOrLess(100))
 
 # The program is complete.
