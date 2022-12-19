@@ -72,4 +72,10 @@ _________
 
 # Expect either positive numbers or zero (there are no negative numbers).
 def numMax(list1):
+    list1.sort()
+    return list1[-1]
+
+def largestNum(list2):
     
+
+print(numMax([4,5,1,3]))
