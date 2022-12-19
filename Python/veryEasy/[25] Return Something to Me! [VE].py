@@ -1,7 +1,7 @@
 """
 ##Return Something to Me!
 
-Write a function that returns the string "something" joined with a space " " and the given argument a.
+Write a function that returns the string "Something" joined with a space " " and the given argument a.
 
 
 [Examples]
@@ -45,3 +45,9 @@ _________
 """ 
 # Your code should go here:
 
+def concatSomething(input1):
+    return ("Something {}.".format(input1))
+
+print(concatSomething("is better than nothing"))
+print(concatSomething("Nitkarsh"))
+print(concatSomething("everything is fair in life and in death maybe"))
