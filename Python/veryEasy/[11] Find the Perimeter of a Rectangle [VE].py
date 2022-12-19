@@ -65,3 +65,10 @@ _________
 """ 
 # Your code should go here:
 
+def rectPeriFind(length, breadth):
+    return ((length * 2) + (breadth * 2))
+
+print(rectPeriFind(6,7))
+print(rectPeriFind(20, 10))
+print(rectPeriFind(2,9))
+print(rectPeriFind(3,3))
