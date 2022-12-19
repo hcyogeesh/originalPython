@@ -40,3 +40,9 @@ _________
 """ 
 # Your code should go here:
 
+def basketBallPoints(pointer2, pointer3):
+    return ((pointer2 * 2) + (pointer3 * 3))
+
+print(basketBallPoints(1, 1))
+print(basketBallPoints(7,5))
+print(basketBallPoints(38, 8))
