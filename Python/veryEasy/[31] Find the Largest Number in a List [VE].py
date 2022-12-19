@@ -78,7 +78,5 @@ def numMax(list1):
 def largestNum(list2):
     return max(list2)
 
-def numMax1(list1):
-    
 print(numMax([4, 5, 1, 3]))
 print(numMax([4, 5, 1, 3]))
