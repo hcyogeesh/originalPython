@@ -56,4 +56,9 @@ _________
 # Your code should go here:
 
 def hrMinToSecAdd(hours, minutes):
-    
+    return ((hours * (60 ** 2)) + (minutes * 60))
+
+print(hrMinToSecAdd(1, 3))
+print(hrMinToSecAdd(2, 0))
+print(hrMinToSecAdd(0, 0))
+print(hrMinToSecAdd(10,10))
