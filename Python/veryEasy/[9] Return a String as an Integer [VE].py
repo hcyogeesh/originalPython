@@ -54,3 +54,5 @@ _________
 """ 
 # Your code should go here:
 
+def stringToInt(str1):
+    
