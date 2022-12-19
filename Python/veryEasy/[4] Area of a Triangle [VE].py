@@ -61,3 +61,11 @@ _________
 """ 
 # Your code should go here:
 
+def triArea(height, base):
+    return ((base * height)/2)
+
+print(int(triArea(3,2)))
+print(int(triArea(7,4)))
+print(int(triArea(10,10)))
+
+# This program is complete.
