@@ -68,3 +68,5 @@ def totalPolyAngle(sides):
 print(totalPolyAngle(3))
 print(totalPolyAngle(4))
 print(totalPolyAngle(6))
+
+# The program is complete.

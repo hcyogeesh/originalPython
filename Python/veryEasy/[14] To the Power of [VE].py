@@ -56,3 +56,12 @@ _________
 """ 
 # Your code should go here:
 
+def calcExpo(baseNum, expoNum):
+    return (baseNum ** expoNum)
+
+print(calcExpo(5,5))
+print(calcExpo(10,10))
+print(calcExpo(3,3))
+print(calcExpo(2,2))
+
+# The program is Complete.
