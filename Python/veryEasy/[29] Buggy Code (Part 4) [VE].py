@@ -53,4 +53,15 @@ _________
 # Will have to introduce a lower function something.
 
 def specGreet(name1):
-    if name1.lower() == ""
+    if name1.lower() == "nitkarsh":
+        return ("Hello, my Love!")
+    else:
+        return ("Hello, {}!".format(name1))
+
+print(specGreet("Nitkarsh"))
+print(specGreet("Anmol"))
+print(specGreet("Rohit"))
+print(specGreet("Varsha"))
+print(specGreet("Santosh"))
+
+# The program is complete.
