@@ -70,3 +70,6 @@ _________
 """ 
 # Your code should go here:
 
+# Expect either positive numbers or zero (there are no negative numbers).
+def numMax(list1):
+    
