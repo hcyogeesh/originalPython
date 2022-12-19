@@ -81,7 +81,8 @@ def isEqual(obj1, obj2):
         return True
     else:
         return False
-    
+
+# Direct printing method works.
 print(isEqual({
   "name": "Benny",
   "phone": "3325558745",
@@ -92,6 +93,7 @@ print(isEqual({
   "email": "jason@edabit.com"
 }))
 
+# Assigning and then using as a parameter works.
 obj1 = { 
   "name": "Jason",
   "phone": "9853759720",
@@ -104,3 +106,5 @@ obj2 = {
 }
 
 print(isEqual(obj1, obj2))
+
+# The program is complete.
