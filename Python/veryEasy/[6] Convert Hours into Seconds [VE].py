@@ -54,3 +54,11 @@ _________
 """ 
 # Your code should go here:
 
+def hrToMin(input1):
+    return (input1 * 60 * 60)
+
+print(hrToMin(2))
+print(hrToMin(10))
+print(hrToMin(24))
+
+# The program is complete.
