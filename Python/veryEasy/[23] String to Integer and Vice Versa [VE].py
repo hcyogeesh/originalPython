@@ -60,20 +60,35 @@ Handling Exceptions
 https://wiki.python.org/moin/HandlingExceptions
 The simplest way to handle exceptions is with a "try-except" block.
 _________
-""" 
+"""
 # Your code should go here:
-def converterDataType(input1):
-    try:
-        def toInt(input1):
-            return int(input1)
-    except:
-        def toStr(input1):
-            return str(input1)
-    else:
-        return type(toInt(Input1))
 
-print(converterDataType(77))
-print(converterDataType(532))
-print(converterDataType("532"))
-print(converterDataType("77"))
+# def converterDataType(input1):
+#     try:
+#         def toInt(input1):
+#             return int(input1)
+#     except:
+#         def toStr(input1):
+#             return str(input1)
+#     else:
+#         return type(toInt(Input1))
+#
+# print(converterDataType(77))
+# print(converterDataType(532))
+# print(converterDataType("532"))
+# print(converterDataType("77"))
+#
+def toInt(input1):
+    return int(input1)
+def toStr(input2):
+    return str(input2)
 
+print(toInt("77"))
+print(toInt("532"))
+print(toStr(77))
+print(toStr(532))
+
+print(type(toInt("77")))
+print(type(toInt("532")))
+print(type(toStr(77)))
+print(type(toStr(532)))
