@@ -70,3 +70,14 @@ _________
 """ 
 # Your code should go here:
 
+def zerOrLess(num1):
+    if num1 <= 0:
+        return True
+    else:
+        return False
+
+print(zerOrLess(5))
+print(zerOrLess(0))
+print(zerOrLess(-5))
+
+# The program is complete.
