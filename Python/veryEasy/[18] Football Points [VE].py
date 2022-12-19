@@ -52,8 +52,13 @@ _________
 # Your code should go here:
 
 def fbPoints(wins, draws, losses):
-    return ((wins * 3) + (draws * 1) + (losses * 0))
+    if wins >= 0 and draws >= 0 and losses >= 0:
+        return ((wins * 3) + (draws * 1) + (losses * 0))
+    else:
+        return "Please make expected inputs."
 
 print(fbPoints(3,4,2))
 print(fbPoints(5,0,2))
 print(fbPoints(0,0,1))
+print(fbPoints(2,3,-1))
+# The program is complete.
