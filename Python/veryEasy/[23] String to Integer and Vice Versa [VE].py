@@ -62,8 +62,12 @@ The simplest way to handle exceptions is with a "try-except" block.
 _________
 """ 
 # Your code should go here:
-
-try:
-    def toInt(input1):
-        return int(input1)
-    
+def converterDataType(input1):
+    try:
+        def toInt(input1):
+            return int(input1)
+    except:
+        def toStr(input1):
+            return str(input1)
+    finally:
+        
