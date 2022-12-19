@@ -62,3 +62,11 @@ _________
 """ 
 # Your code should go here:
 
+def totalLegCount(chickens, cows, pigs):
+    return ((chickens * 2) + (cows * 4) + (pigs * 4))
+
+print(totalLegCount(2, 3, 5))
+print(totalLegCount(1, 2, 3))
+print((totalLegCount(5, 2, 8)))
+
+# The program is complete.
