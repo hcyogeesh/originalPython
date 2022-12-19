@@ -55,16 +55,17 @@ _________
 # Your code should go here:
 
 def stringToInt(str1=str):
-    if str1 > 0:
-        if int(str1) is not int:
-            return "Please input a whole number."
-        else:
-            return int(str1)
+    if int(str1) > 0:
+        # if int(str1) is not int:   ## To somehow take input only as particular number type only.
+        #     return "Please input a whole number."
+        return int(str1)
 
 print(stringToInt("6"))
 print(stringToInt("1000"))
 print(stringToInt("12"))
+print(stringToInt(9999))
 # To check their types to verify whether they are being correct or not.
 print(type(stringToInt("6")))
 print(type(stringToInt("1000")))
 print(type(stringToInt("12")))
+print(type(stringToInt(9999)))
