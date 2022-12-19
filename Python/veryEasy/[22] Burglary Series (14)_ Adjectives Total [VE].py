@@ -54,5 +54,15 @@ def countKeys(dict):
     count = 0
     for i in enumerate(dict):
         count += 1
-    return count
+    if count <= 0:
+        return "Input dictionary cannot be zero!"
+    else:
+        return ("Total amount of insults used: {}".format(count))
 
+
+print(countKeys({ "a": "moron" }))
+print(countKeys({ "a": "idiot", "b": "idiot", "c": "idiot" }))
+print(countKeys({ "a": "moron", "b": "scumbag", "c": "moron", "d": "dirtbag" }))
+print(countKeys({}))
+
+# The program is complete.
