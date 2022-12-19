@@ -60,3 +60,11 @@ _________
 """ 
 # Your code should go here:
 
+def minToSec(input1):
+    return input1 * 60
+
+print(minToSec(5))
+print(minToSec(3))
+print(minToSec(2))
+
+# This program is complete.
