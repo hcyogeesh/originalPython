@@ -46,13 +46,15 @@ _________
 # Your code should go here:
 
 def numsSame(num1, num2):
-    if num2 == num1:
+    if num1 == num2:
         return True
     else:
-        False
+        return False
 
 print(numsSame(2,2)) # True
 print(numsSame(3,4)) # False
 print(numsSame(2, "2")) # False
 print(numsSame(3, "3")) # False
 print(numsSame(0, 0)) # True
+
+# The program is complete.
