@@ -63,3 +63,7 @@ _________
 """ 
 # Your code should go here:
 
+try:
+    def toInt(input1):
+        return int(input1)
+    
