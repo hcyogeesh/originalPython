@@ -58,4 +58,15 @@ _________
 # Your code should go here:
 
 def remainder(num1, num2):
-    if num1
+    if num1 > 0 and num2 > 0:
+        return (num1 % num2)
+    else:
+        return ("Please input positive numericals.")
+
+print(remainder(1,3))
+print(remainder(3,4))
+print(remainder(5,5))
+print(remainder(7,2))
+print(remainder(10,0))
+
+# The program is complete.
