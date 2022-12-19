@@ -76,3 +76,14 @@ _________
 """ 
 # Your code should go here:
 
+def isEqual(obj1, obj2):
+    if obj1 == obj2:
+        return True
+    else:
+        return False
+    
+print(isEqual({
+  "name": "Benny",
+  "phone": "3325558745",
+  "email": "benny@edabit.com"
+}))
