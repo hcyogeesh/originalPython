@@ -55,3 +55,13 @@ _________
 """ 
 # Your code should go here:
 
+def ageToDays(num1=int):
+    if num1 >= 0:
+        return int(num1) * 365
+    else:
+        return "Please input positive int for age."
+
+print(ageToDays(65))
+print(ageToDays(0))
+print(ageToDays(20))
+print(ageToDays("10"))
