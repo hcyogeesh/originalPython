@@ -51,3 +51,14 @@ _________
 """ 
 # Your code should go here:
 
+def gambProf(prob, prize, pay):
+    if ((prob * prize) > pay):
+        return True
+    else:
+        return False
+
+print(gambProf(0.2, 50, 9))
+print(gambProf(0.9, 1, 2))
+print(gambProf(0.9, 3, 2))
+
+# The program is complete.

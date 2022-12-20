@@ -54,3 +54,6 @@ def makes10(num1, num2):
 print(makes10(9, 10))
 print(makes10(9, 9))
 print(makes10(1, 9))
+print(makes10(10, 10))
+
+# The program is complete.
