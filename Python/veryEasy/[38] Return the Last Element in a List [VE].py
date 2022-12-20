@@ -57,3 +57,12 @@ _________
 """ 
 # Your code should go here:
 
+def lastEle(list1):
+    return list1[-1]
+
+print(lastEle([1, 2, 3]))
+print(lastEle(["cat", "dog", "duck"]))
+print(lastEle([True, False, True]))
+print(lastEle([1, "Hello", True]))
+
+# The program is complete.

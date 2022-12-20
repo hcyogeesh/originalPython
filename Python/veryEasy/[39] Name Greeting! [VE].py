@@ -56,3 +56,5 @@ _________
 """ 
 # Your code should go here:
 
+def hello(name1):
+    return ("Hello")
