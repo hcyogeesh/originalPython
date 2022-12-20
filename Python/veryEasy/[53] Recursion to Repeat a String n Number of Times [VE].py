@@ -51,8 +51,10 @@ _________
 # Your code should go here:
 
 def nRecur(str1, n):
-    if 
+    if n > 0:
         return str1 * n
+    else:
+        return ("Please input positive multiple of n.")
 print(nRecur("ab", 3))
 print(nRecur("kiwi", 1))
 print(nRecur("cherry", 2))
@@ -61,18 +63,4 @@ print(nRecur("a",0))
 print(nRecur("a", -1))
 print(nRecur("a", -100))
 
-# [Examples]
-#
-# ___
-# repetition("ab", 3) ➞ "ababab"
-#
-# repetition("kiwi", 1) ➞ "kiwi"
-#
-# repetition("cherry", 2) ➞ "cherrycherry"
-# _____
-#
-#
-#
-# [Notes]
-#
-# The second parameter of the function is positive integer.
+# The program is complete.
