@@ -40,3 +40,4 @@ _________
 """ 
 # Your code should go here:
 
+def frames(sec)

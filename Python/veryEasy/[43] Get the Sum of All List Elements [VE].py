@@ -72,8 +72,5 @@ print(listSumMeth([45, 3, 0]))
 print(listSumLoop([45, 3, 0]))
 print(listSumMeth([-2, 84, 23]))
 print(listSumLoop([-2, 84, 23]))
-# get_sum_of_elements([2, 7, 4]) ➞ 13
-#
-# get_sum_of_elements([45, 3, 0]) ➞ 48
-#
-# get_sum_of_elements([-2, 84, 23]) ➞ 105
+
+# The program is complete.
