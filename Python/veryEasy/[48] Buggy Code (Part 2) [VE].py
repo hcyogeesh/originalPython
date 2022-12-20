@@ -54,3 +54,10 @@ _________
 """ 
 # Your code should go here:
 
+def maxNum(num1, num2):
+    list1 = [num1, num2]
+    return max(list1)
+
+print(maxNum(3, 7))
+print(maxNum(-1, 0))
+print(maxNum(600, 1000))
