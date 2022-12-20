@@ -61,3 +61,15 @@ _________
 """ 
 # Your code should go here:
 
+def chkIdenticality(list1, list2):
+    if list1 == list2:
+        return True
+    else:
+        return False
+
+print(chkIdenticality([1, 2], [1, 3]))
+print(chkIdenticality([1, 2], [1, 2]))
+print(chkIdenticality([4, 5, 6], [4, 5, 6]))
+print(chkIdenticality([4, 7, 6], [4, 5, 6]))
+
+# The program is complete.
