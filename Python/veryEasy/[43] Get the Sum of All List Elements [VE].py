@@ -55,3 +55,25 @@ _________
 """ 
 # Your code should go here:
 
+# Two methods are there 1. Inbuilt function and second using loop.
+
+def listSumMeth(list1):
+    return sum(list1)
+
+def listSumLoop(list1):
+    sum = 0
+    for i in list1:
+        sum = sum + i
+    return sum
+
+print(listSumMeth([2, 7, 4]))
+print(listSumLoop([2, 7, 4]))
+print(listSumMeth([45, 3, 0]))
+print(listSumLoop([45, 3, 0]))
+print(listSumMeth([-2, 84, 23]))
+print(listSumLoop([-2, 84, 23]))
+# get_sum_of_elements([2, 7, 4]) ➞ 13
+#
+# get_sum_of_elements([45, 3, 0]) ➞ 48
+#
+# get_sum_of_elements([-2, 84, 23]) ➞ 105
