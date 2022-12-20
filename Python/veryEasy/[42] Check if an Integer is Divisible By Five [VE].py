@@ -65,3 +65,15 @@ _________
 """ 
 # Your code should go here:
 
+def divby5(num1):
+    if (num1 % 5) == 0:
+        return True
+    else:
+        return False
+
+print(divby5(5))
+print(divby5(55))
+print(divby5(37))
+print(divby5(23))
+
+# The program is complete.
