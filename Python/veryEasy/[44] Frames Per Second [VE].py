@@ -40,4 +40,11 @@ _________
 """ 
 # Your code should go here:
 
-def frames(sec)
+def frames(secs, Fmulti):
+    return (secs * (Fmulti * 60))
+
+print(frames(1, 1))
+print(frames(10, 1))
+print(frames(10, 25))
+
+# The program is complete.

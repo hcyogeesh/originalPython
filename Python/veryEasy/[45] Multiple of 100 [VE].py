@@ -60,3 +60,16 @@ _________
 """ 
 # Your code should go here:
 
+def div100(num1):
+    if (num1 % 100 == 0):
+        return True
+    else:
+        return False
+
+print(div100(100))
+print(div100(1000))
+print(div100(100000))
+print(div100(1))
+print(div100(23))
+
+# The program is complete.
