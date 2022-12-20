@@ -61,3 +61,7 @@ def maxNum(num1, num2):
 print(maxNum(3, 7))
 print(maxNum(-1, 0))
 print(maxNum(600, 1000))
+print(maxNum(2,2))
+print(maxNum(10000,100))
+
+# The program is complete.
