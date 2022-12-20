@@ -74,18 +74,5 @@ print(sumListFor([0]))
 print(sumListFor([100]))
 print(sumListFor([99]))
 print(sumListFor([1, 2, 1, 29, 29]))
-# [Examples]
-#
-# ___
-# list_less_than_100([5, 57]) ➞ True
-#
-# list_less_than_100([77, 30]) ➞ False
-#
-# list_less_than_100([0]) ➞ True
-# _____
-#
-#
-#
-# [Notes]
-#
-# N/A
+
+# The program is complete.

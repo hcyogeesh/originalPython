@@ -52,3 +52,16 @@ _________
 """ 
 # Your code should go here:
 
+def conv2Neg(num1):
+    if num1 >= 0:
+        return (num1 * (-1))
+    else:
+        return num1
+
+print(conv2Neg(4))
+print(conv2Neg(15))
+print(conv2Neg(-4))
+print(conv2Neg(0))
+print(conv2Neg(-11))
+
+# The program is complete.
