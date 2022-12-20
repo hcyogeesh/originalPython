@@ -55,3 +55,15 @@ _________
 """ 
 # Your code should go here:
 
+def isSeven(num1):
+    if num1 == 7:
+        return True
+    else:
+        return False
+
+print(isSeven(4))
+print(isSeven(9))
+print(isSeven(7))
+print(isSeven(0))
+
+# The program is complete.

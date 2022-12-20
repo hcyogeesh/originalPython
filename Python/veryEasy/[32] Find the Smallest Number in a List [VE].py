@@ -84,3 +84,5 @@ print("Using the smallestNum function.") # Built by using min() function.
 print(smallestNum([1,4,2,5,6,41]))
 print(smallestNum([99,999,999,9999]))
 print(smallestNum([123,1234,13,1,0,0,0]))
+
+# The program is Complete.

@@ -60,3 +60,5 @@ _________
 """ 
 # Your code should go here:
 
+def diffMaxMin(list1):
+    return ((lis1.Max()) - )
