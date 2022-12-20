@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [numbers] 
+[arrays] [language_fundamentals] [numbers]
 
 
 
@@ -51,8 +51,12 @@ Splitting, Concatenating, and Joining Strings
 https://realpython.com/python-string-split-concatenate-join/
 In this beginner-friendly article, you’ll learn some of the most fundamental string operations: splitting, concatenating, and joining. Not only will you learn how to us …
 _________
-""" 
+"""
 # Your code should go here:
 
 def concatList(list1, list2):
-    re
+    return list1 + list2
+
+print(concatList([1, 3, 5], [1, 3, 5, 2, 6, 8]))
+print(concatList([7, 8], [10, 9, 1, 1, 2]))
+print(concatList([4, 5, 1], [3, 3, 3, 3, 3]))
