@@ -58,3 +58,8 @@ _________
 """ 
 # Your code should go here:
 
+def kExpoEqN(n ,k):
+    if ((k ** k) == n):
+        return True
+    else:
+        return False
