@@ -7,3 +7,4 @@
 7. VE = 31 - To implement a list1 elements checking to keep it about 0 or just 0 else false thing if found.
 8. VE = 49 - Implement only str type inputs only.
 9. VE = 52 - Implementation of only str type inputs only.
+10. VE = 54 - Check the outputs and study the algorithms, properly.

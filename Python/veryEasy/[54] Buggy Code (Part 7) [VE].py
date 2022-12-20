@@ -75,25 +75,20 @@ print(swap(100, 200))
 print(swap(44, 33))
 print(swap(21, 12))
 
-print("swap1 function:")
+print("\nswap1 function:")
 print(swap1(100, 200))
 print(swap1(44, 33))
 print(swap1(21, 12))
 
-print("swap2 function:")
+print("\nswap2 function:")
 print(swap2(100, 200))
 print(swap2(44, 33))
 print(swap2(21, 12))
 
-print("swap3 function:")
+print("\nswap3 function:")
 print(swap3(100, 200))
 print(swap3(44, 33))
 print(swap3(21, 12))
 
-# swap(100, 200) ➞ [200, 100]
-#
-# swap(44, 33) ➞ [33, 44]
-#
-# swap(21, 12) ➞ [12, 21]
-
+# The program is complete.
 
