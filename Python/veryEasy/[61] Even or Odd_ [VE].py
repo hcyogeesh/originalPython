@@ -50,7 +50,18 @@ _________
 # Your code should go here:
 
 def sumListInt(list1):
-    
+    sum = 0
+    for i in list1:
+        sum += i
+    if sum % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+print(sumListInt([0]))
+print(sumListInt([1]))
+print(sumListInt([]))
+print(sumListInt([0, 1, 5]))
 # Given a list of integers, determine whether the sum of its elements is even or odd.
 # The return value should be a string ("odd" or "even").
 # If the input list is empty, consider it as a list with a zero ([0]).
