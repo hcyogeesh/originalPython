@@ -61,4 +61,10 @@ _________
 # Your code should go here:
 
 def diffMaxMin(list1):
-    return ((lis1.Max()) - )
+    return ((list1.max()) - (list1.min()))
+
+print(diffMaxMin([10, 4, 1, 4, -10, -50, 32, 21]))
+print(diffMaxMin([44, 32, 86, 19]))
+print(diffMaxMin([1,2,3,4,5,6,7,8,100]))
+
+# The program is
