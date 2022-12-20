@@ -71,3 +71,13 @@ _________
 """ 
 # Your code should go here:
 
+def isEmpty(str1):
+    if len(str1) == 0:
+        return True
+    else:
+        return False
+
+print(isEmpty("Nitkarsh"))
+print(isEmpty(""))
+print(isEmpty(" "))
+print(isEmpty("a"))
