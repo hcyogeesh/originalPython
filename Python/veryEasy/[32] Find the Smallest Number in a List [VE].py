@@ -69,3 +69,18 @@ _________
 """ 
 # Your code should go here:
 
+def numMax(list1):
+    list1.sort()
+    return list1[-1]
+
+def largestNum(list2):
+    return max(list2)
+
+print("Using the numMax function.") # Built by using sort and negative indexing method.
+print(numMax([1,4,2,5,6,41]))
+print(numMax([99,999,999,9999]))
+print(numMax([123,1234,13,1,0,0,0]))
+print("Using the largestNum function.") # Built by using max() function.
+print(largestNum([1,4,2,5,6,41]))
+print(largestNum([99,999,999,9999]))
+print(largestNum([123,1234,13,1,0,0,0]))
