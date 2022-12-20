@@ -45,3 +45,17 @@ _________
 """ 
 # Your code should go here:
 
+def sumList(list1):
+    if sum(list1) < 100:
+        return True
+    else:
+        return False
+
+def sumListFor(list1):
+    sum = 0
+    for i in list1:
+        sum += i
+    if sum < 100:
+        return True
+    else:
+        return False

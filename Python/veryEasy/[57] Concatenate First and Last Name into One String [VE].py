@@ -83,12 +83,4 @@ print(concatName("Nitkarsh", "Chourasia"))
 print(concatName("Anmol", "Chourasia"))
 print(concatName("Purshotam", "Bohra"))
 
-# ___
-# concat_name("First", "Last") ➞ "Last, First"
-#
-# concat_name("John", "Doe") ➞ "Doe, John"
-#
-# concat_name("Mary", "Jane") ➞ "Jane, Mary"
-# _____
-
-
+# The program is complete.
