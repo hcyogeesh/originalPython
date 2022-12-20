@@ -48,6 +48,30 @@ _________
 """ 
 # Your code should go here:
 
-def swap1(num1, num2):
+def swap(num1, num2):
     temp = num1
-    num2 = num1
+    num1 = num2
+    num2 = temp
+    return num1, num2
+
+def swap1(num1, num2):
+    num1, num2 = num2, num1 # Python explicit method of swapping.
+    return num1, num2
+
+def swap2(num1, num2):
+    num1 = num1 + num2
+    num2 = num1 - num2
+    num1 = num1 - num2
+    return num1, num2
+
+def swap3(num1, num2):
+    num1 = num1 * num2
+    num2 = num1 / num2
+    num1 = num1 / num2
+# swap(100, 200) ➞ [200, 100]
+#
+# swap(44, 33) ➞ [33, 44]
+#
+# swap(21, 12) ➞ [12, 21]
+
+
