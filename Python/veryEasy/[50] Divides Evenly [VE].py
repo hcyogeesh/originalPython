@@ -56,7 +56,7 @@ _________
 # Your code should go here:
 
 def evenDiv(a, b):
-    if a > b:
+    if a >= b:
         if (a % b == 0):
             return True
         else:
@@ -67,21 +67,7 @@ def evenDiv(a, b):
 print(evenDiv(98, 7))
 print(evenDiv(85, 4))
 print(evenDiv(99, 9))
-print(evenDiv(10, 9))
-# [Examples]
-#
-# ___
-# divides_evenly(98, 7) ➞ True
-# 98/7 = 14
-#
-# divides_evenly(85, 4) ➞ False
-# 85/4 = 21.25
-# _____
-#
-#
-#
-# [Notes]
-#
-# a will always be greater than or equal to b.
-#
-#
+print(evenDiv(9, 9))
+print(evenDiv(9, 10))
+
+# The program is complete.
