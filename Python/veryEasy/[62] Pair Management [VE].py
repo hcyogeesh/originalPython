@@ -55,3 +55,13 @@ _________
 """ 
 # Your code should go here:
 
+def makePair(num1, num2):
+    return num1, num2
+print(makePair(1, 2))
+print(makePair(51, 21))
+print(makePair(512124, 215))
+# make_pair(1, 2) ➞ [1, 2]
+#
+# make_pair(51, 21) ➞ [51, 21]
+#
+# make_pair(512124, 215) ➞ [512124, 215]
