@@ -69,18 +69,18 @@ _________
 """ 
 # Your code should go here:
 
-def numMax(list1):
-    list1.sort()
+def numMin(list1):
+    list1.sort(reverse=True)
     return list1[-1]
 
-def largestNum(list2):
-    return max(list2)
+def smallestNum(list2):
+    return min(list2)
 
-print("Using the numMax function.") # Built by using sort and negative indexing method.
-print(numMax([1,4,2,5,6,41]))
-print(numMax([99,999,999,9999]))
-print(numMax([123,1234,13,1,0,0,0]))
-print("Using the largestNum function.") # Built by using max() function.
-print(largestNum([1,4,2,5,6,41]))
-print(largestNum([99,999,999,9999]))
-print(largestNum([123,1234,13,1,0,0,0]))
+print("Using the numMin function.") # Built by using sort(reverse=True) and negative indexing method.
+print(numMin([1,4,2,5,6,41]))
+print(numMin([99,999,999,9999]))
+print(numMin([123,1234,13,1,0,0,0]))
+print("Using the smallestNum function.") # Built by using min() function.
+print(smallestNum([1,4,2,5,6,41]))
+print(smallestNum([99,999,999,9999]))
+print(smallestNum([123,1234,13,1,0,0,0]))
