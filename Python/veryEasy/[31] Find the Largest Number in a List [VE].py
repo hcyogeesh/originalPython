@@ -79,4 +79,7 @@ def largestNum(list2):
     return max(list2)
 
 print(numMax([4, 5, 1, 3]))
-print(numMax([4, 5, 1, 3]))
+print(numMax(13, ))
+print(largestNum([4, 5, 1, 3]))
+
+######### Not.
