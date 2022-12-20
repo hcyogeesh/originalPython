@@ -53,17 +53,11 @@ _________
 # Your code should go here:
 
 def exCalc(exp1):
-    return (eval(exp1))
+    return (int(eval(exp1)))
 
 print(exCalc("23+4"))
 print(exCalc("45-15"))
 print(exCalc("13+2-5*2"))
 print(exCalc("49/7*2-3"))
 
-# calculator("23+4") ➞ 27
-#
-# calculator("45-15") ➞ 30
-#
-# calculator("13+2-5*2") ➞ 5
-#
-# calculator("49/7*2-3") ➞ 11
+# This program is complete.

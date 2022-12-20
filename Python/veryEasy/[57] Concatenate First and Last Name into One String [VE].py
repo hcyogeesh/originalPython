@@ -75,3 +75,17 @@ _________
 """ 
 # Your code should go here:
 
+def concatName(fname, lname):
+    return ("{1}{0}".format(fname,lname))
+
+print(concatName("First", "Last"))
+print(concatName("Nitkarsh", "Chourasia"))
+# ___
+# concat_name("First", "Last") ➞ "Last, First"
+#
+# concat_name("John", "Doe") ➞ "Doe, John"
+#
+# concat_name("Mary", "Jane") ➞ "Jane, Mary"
+# _____
+
+
