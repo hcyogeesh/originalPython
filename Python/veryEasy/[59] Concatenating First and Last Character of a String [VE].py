@@ -72,11 +72,16 @@ _________
 def firstAndLast(str1):
     if (len(str1) >= 2):
         return ("{0}{1}".format(str1[0], str1[-1]))
+    else:
+        return "Please input str with more than or equal to two characters."
 print(firstAndLast("Nitkarsh"))
 print(firstAndLast("Anmol"))
 print(firstAndLast("Purshotam"))
 print(firstAndLast("Varsha"))
 print(firstAndLast("NitkarshChourasia"))
 print(firstAndLast("AnmolChourasia"))
+print(firstAndLast("az"))
+print(firstAndLast("a"))
+print(firstAndLast(""))
 
 # The program is complete.
