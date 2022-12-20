@@ -50,3 +50,29 @@ _________
 """ 
 # Your code should go here:
 
+def nRecur(str1, n):
+    if 
+        return str1 * n
+print(nRecur("ab", 3))
+print(nRecur("kiwi", 1))
+print(nRecur("cherry", 2))
+print(nRecur("a", 100))
+print(nRecur("a",0))
+print(nRecur("a", -1))
+print(nRecur("a", -100))
+
+# [Examples]
+#
+# ___
+# repetition("ab", 3) ➞ "ababab"
+#
+# repetition("kiwi", 1) ➞ "kiwi"
+#
+# repetition("cherry", 2) ➞ "cherrycherry"
+# _____
+#
+#
+#
+# [Notes]
+#
+# The second parameter of the function is positive integer.
