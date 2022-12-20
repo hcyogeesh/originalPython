@@ -54,3 +54,4 @@ _________
 """ 
 # Your code should go here:
 
+def lenStrBool(str1)
