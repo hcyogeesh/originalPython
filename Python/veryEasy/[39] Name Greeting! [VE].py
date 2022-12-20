@@ -57,4 +57,12 @@ _________
 # Your code should go here:
 
 def hello(name1):
-    return ("Hello")
+    return ("Hello {}!".format(name1))
+
+print(hello("Nitkarsh"))
+print(hello("Anmol"))
+print(hello("Rohit"))
+print(hello("Santosh"))
+print(hello("Varsha"))
+
+# The program is complete.
