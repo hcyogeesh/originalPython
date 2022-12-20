@@ -5,3 +5,4 @@
 5. VE = 24 - Check the *correctness of the output*, later on.
 6. VE = 29 - To implement some splitting feature and always output first letter as capital and rest as small letters.
 7. VE = 31 - To implement a list1 elements checking to keep it about 0 or just 0 else false thing if found.
+8. VE = 49 - Implement only str type inputs only.

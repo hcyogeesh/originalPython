@@ -1,7 +1,8 @@
 """
 ##Compare Strings by Count of Characters
 
-Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+Create a function that takes two strings as arguments and return either True or False depending on whether the total
+number of characters in the first string is equal to the total number of characters in the second string.
 
 
 [Examples]
@@ -50,3 +51,15 @@ _________
 """ 
 # Your code should go here:
 
+def len2Str(str1, str2):
+    if (len(str1) == len(str2)):
+        return True
+    else:
+        return False
+
+print(len2Str("123", "568"))
+print(len2Str("000", "123"))
+print(len2Str("ABC","YE"))
+print(len2Str("dasf", "asd"))
+
+# The program is complete.
