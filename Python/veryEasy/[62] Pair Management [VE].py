@@ -63,14 +63,9 @@ print(makePair(1, 2))
 print(makePair(51, 21))
 print(makePair(512124, 215))
 
-print("Checking the output type: ")
+print("\nChecking the output type: ")
 print(type(makePair(1, 2)))
 print(type(makePair(51, 21)))
 print(type(makePair(512124, 215)))
 
-
-# make_pair(1, 2) ➞ [1, 2]
-#
-# make_pair(51, 21) ➞ [51, 21]
-#
-# make_pair(512124, 215) ➞ [512124, 215]
+# The program is complete.
