@@ -48,3 +48,6 @@ _________
 """ 
 # Your code should go here:
 
+def swap1(num1, num2):
+    temp = num1
+    num2 = num1
