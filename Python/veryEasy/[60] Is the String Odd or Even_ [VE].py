@@ -54,4 +54,11 @@ _________
 """ 
 # Your code should go here:
 
-def lenStrBool(str1)
+def lenStrBool(str1):
+    if (len(str1) % 2 == 0):
+        return True
+    else:
+        return False
+
+print(lenStrBool("apples"))
+print(lenStrBool("pears"))
