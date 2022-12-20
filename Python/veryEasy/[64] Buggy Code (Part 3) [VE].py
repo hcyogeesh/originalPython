@@ -54,3 +54,21 @@ _________
 """ 
 # Your code should go here:
 
+def sumListLoop(list1):
+    sum = 0
+    for i in list1:
+        sum += i
+    return sum
+def sumListMethod(list1):
+    return sum(list1)
+
+print(sumListLoop([1, 2, 3, 4, 5]))
+print(sumListMethod([1, 2, 3, 4, 5]))
+
+print(sumListLoop([-1, 0, 1]))
+print(sumListMethod([-1, 0, 1]))
+
+print(sumListLoop([0, 4, 8, 12]))
+print(sumListMethod([0, 4, 8, 12]))
+
+# The program is complete.
