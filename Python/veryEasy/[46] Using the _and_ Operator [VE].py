@@ -63,3 +63,15 @@ _________
 """ 
 # Your code should go here:
 
+def And(bool1, bool2):
+    if bool1 == True and bool2 == True:
+        return True
+    else:
+        return False
+
+print(And(True, False))
+print(And(True, True))
+print(And(False, True))
+print(And(False, False))
+
+# The program is complete.
