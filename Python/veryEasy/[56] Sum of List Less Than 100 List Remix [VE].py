@@ -59,3 +59,33 @@ def sumListFor(list1):
         return True
     else:
         return False
+
+print("sumList function made the sums using the sum() method.")
+print(sumList([5, 57]))
+print(sumList([77, 30]))
+print(sumList([0]))
+print(sumList([100]))
+print(sumList([99]))
+print(sumList([1, 2, 1, 29, 29]))
+print("sumlistFor function made the sums using for loop.")
+print(sumListFor([5, 57]))
+print(sumListFor([77, 30]))
+print(sumListFor([0]))
+print(sumListFor([100]))
+print(sumListFor([99]))
+print(sumListFor([1, 2, 1, 29, 29]))
+# [Examples]
+#
+# ___
+# list_less_than_100([5, 57]) ➞ True
+#
+# list_less_than_100([77, 30]) ➞ False
+#
+# list_less_than_100([0]) ➞ True
+# _____
+#
+#
+#
+# [Notes]
+#
+# N/A
