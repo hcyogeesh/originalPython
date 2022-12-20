@@ -71,7 +71,7 @@ _________
 
 def firstAndLast(str1):
     if (len(str1) >= 2):
-        return ("{1}{2}".format(str1[0],str1[-1]))
+        return ("{0}{1}".format(str1[0], str1[-1]))
 print(firstAndLast("Nitkarsh"))
 print(firstAndLast("Anmol"))
 print(firstAndLast("Purshotam"))
