@@ -63,3 +63,10 @@ def kExpoEqN(n ,k):
         return True
     else:
         return False
+
+print(kExpoEqN(4,2))
+print(kExpoEqN(387420489, 9))
+print(kExpoEqN(17, 3))
+print(kExpoEqN(3124, 5))
+
+# The program is complete.
