@@ -57,3 +57,16 @@ _________
 """ 
 # Your code should go here:
 
+def lessThan100(num1, num2):
+    if (num1 + num2) < 100:
+        return True
+    else:
+        return False
+
+print(lessThan100(100, 0))
+print(lessThan100(99, 0))
+print(lessThan100(32, 45))
+print(lessThan100(43, 64))
+print(lessThan100(0 , 0))
+
+# The program is complete.
