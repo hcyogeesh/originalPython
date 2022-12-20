@@ -56,10 +56,19 @@ _________
 # Your code should go here:
 
 def makePair(num1, num2):
-    return num1, num2
+    return [num1, num2]
+
+print("The outputs: ")
 print(makePair(1, 2))
 print(makePair(51, 21))
 print(makePair(512124, 215))
+
+print("Checking the output type: ")
+print(type(makePair(1, 2)))
+print(type(makePair(51, 21)))
+print(type(makePair(512124, 215)))
+
+
 # make_pair(1, 2) ➞ [1, 2]
 #
 # make_pair(51, 21) ➞ [51, 21]
