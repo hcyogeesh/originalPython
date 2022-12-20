@@ -69,3 +69,14 @@ _________
 """ 
 # Your code should go here:
 
+def firstAndLast(str1):
+    if (len(str1) >= 2):
+        return ("{1}{2}".format(str1[0],str1[-1]))
+print(firstAndLast("Nitkarsh"))
+print(firstAndLast("Anmol"))
+print(firstAndLast("Purshotam"))
+print(firstAndLast("Varsha"))
+print(firstAndLast("NitkarshChourasia"))
+print(firstAndLast("AnmolChourasia"))
+
+# The program is complete.

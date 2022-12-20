@@ -63,4 +63,6 @@ def lenStrBool(str1):
 print(lenStrBool("apples"))
 print(lenStrBool("pears"))
 print(lenStrBool("Nitkarsh"))
+print(lenStrBool("NitkarshChourasia"))
+
 # The program is complete.
