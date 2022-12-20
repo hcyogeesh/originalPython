@@ -56,3 +56,14 @@ _________
 """ 
 # Your code should go here:
 
+def start3(str1):
+    return str1[:3] * 3
+
+print(start3("Nitkarsh"))
+print(start3("Anmol"))
+print(start3("Purshotam"))
+print(start3("Hey"))
+print(start3("A"))
+print(start3(""))
+
+# The program is complete.
