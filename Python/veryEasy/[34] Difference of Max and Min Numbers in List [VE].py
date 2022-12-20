@@ -61,10 +61,12 @@ _________
 # Your code should go here:
 
 def diffMaxMin(list1):
-    return ((list1.max()) - (list1.min()))
+    return ((max(list1)) - (min(list1)))
 
 print(diffMaxMin([10, 4, 1, 4, -10, -50, 32, 21]))
 print(diffMaxMin([44, 32, 86, 19]))
 print(diffMaxMin([1,2,3,4,5,6,7,8,100]))
+print(diffMaxMin([-12, -123, -13, -42, -311])) # For negative also the output is positive number.
+print(diffMaxMin([-100, 2]))
 
-# The program is
+# The program is complete.
