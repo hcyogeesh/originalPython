@@ -68,6 +68,28 @@ def swap3(num1, num2):
     num1 = num1 * num2
     num2 = num1 / num2
     num1 = num1 / num2
+    return int(num1), int(num2)
+
+print("swap function: ")
+print(swap(100, 200))
+print(swap(44, 33))
+print(swap(21, 12))
+
+print("swap1 function:")
+print(swap1(100, 200))
+print(swap1(44, 33))
+print(swap1(21, 12))
+
+print("swap2 function:")
+print(swap2(100, 200))
+print(swap2(44, 33))
+print(swap2(21, 12))
+
+print("swap3 function:")
+print(swap3(100, 200))
+print(swap3(44, 33))
+print(swap3(21, 12))
+
 # swap(100, 200) ➞ [200, 100]
 #
 # swap(44, 33) ➞ [33, 44]
