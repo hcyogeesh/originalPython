@@ -47,3 +47,9 @@ _________
 """ 
 # Your code should go here:
 
+def diffMaxMin(list1):
+    return ((max(list1)) - (min(list1)))
+
+print(diffMaxMin([10, 15, 20, 2, 10, 6]))
+print(diffMaxMin([-3, 4, -9, -1, -2, 15]))
+print(diffMaxMin([4, 17, 12, 2, 10, 2]))
