@@ -50,3 +50,32 @@ _________
 """ 
 # Your code should go here:
 
+def fuelCalc(distance):
+    if (distance * 10) > 100:
+        return int(distance * 10)
+    else:
+        return 100
+
+print(fuelCalc(15))
+print(fuelCalc(23.5))
+print(fuelCalc(3))
+print(fuelCalc(10))
+
+# [Examples]
+#
+# ___
+# calculate_fuel(15) ➞ 150
+#
+# calculate_fuel(23.5) ➞ 235
+#
+# calculate_fuel(3) ➞ 100
+# _____
+#
+#
+#
+# [Notes]
+#
+# ___
+# *) Distance will be a number greater than zero.
+# *) Return 100 if the calculated fuel turns out to be less than 100.
+# ___
