@@ -13,8 +13,10 @@ arr = ["eyes", "nose", "lips", "ears"]
 _ , nose, _, _ = arr
 _____
 
-... this assigns the value in arr[1] to the variable nose. The values in each other index will be assigned to the variable _ in order, overwriting each previous value. nose now holds the string "nose", and _ now holds the string "ears".
-Use destructuring assignment on the given list to assign the string "lips" to the variable provided. Do not use list indexing, or assigning variable names to any of the other strings.
+... this assigns the value in arr[1] to the variable nose. The values in each other index will be assigned to the variable _
+in order, overwriting each previous value. nose now holds the string "nose", and _ now holds the string "ears".
+Use destructuring assignment on the given list to assign the string "lips" to the variable provided.
+Do not use list indexing, or assigning variable names to any of the other strings.
 
 
 [Notes]
@@ -46,3 +48,12 @@ _________
 """ 
 # Your code should go here:
 
+arr = ["eyes", "nose", "lips", "ears"]
+eyes1, nose1, lips1, ears1 = arr
+
+print(eyes1)
+print(nose1)
+print(lips1)
+print(ears1)
+
+# The program is complete.
