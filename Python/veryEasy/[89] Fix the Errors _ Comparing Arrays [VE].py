@@ -1,8 +1,10 @@
 """
 ##Fix the Errors / Comparing Arrays
 
-Programmer Pete is trying to create a function that returns True if two lists share the same length and have identical numerical values at every index, otherwise, it will return False.
-However, the solution his function gives is in an unexpected format. Can you fix Pete's function so that it behaves as seen in the examples below?
+Programmer Pete is trying to create a function that returns True if two lists share the
+same length and have identical numerical values at every index, otherwise, it will return False.
+However, the solution his function gives is in an unexpected format.
+Can you fix Pete's function so that it behaves as seen in the examples below?
 
 
 [Examples]
@@ -40,7 +42,10 @@ _________
 _________
 Conditions
 https://www.w3schools.com/python/python_conditions.asp
-In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
+In this example we use two variables, a and b,
+ which are used as part of the if statement to test whether b is greater than a.
+ As a is 33, and b is 200,
+ we know that …
 _________
 _________
 List
@@ -50,3 +55,20 @@ _________
 """ 
 # Your code should go here:
 
+def checkEquals(list1, list2):
+    if len(list1) == len(list2):
+        if list1 == list2:
+            return True
+        else:
+            return False
+    else:
+        return "String's length do not match, each other."
+
+print(checkEquals([1, 2], [1, 3]))
+print(checkEquals([1, 2], [1, 2]))
+print(checkEquals([4, 5, 6], [4, 5, 6]))
+print(checkEquals([4, 7, 6], [4, 5, 6]))
+print(checkEquals([1, 12], [11, 2]))
+print(checkEquals([1, 2, 3], [1, 2]))
+
+# The program is complete.
