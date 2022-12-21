@@ -49,8 +49,25 @@ _________
 """ 
 # Your code should go here:
 
-def getContainer(n):
+def getContainer(product):
+    input1 = product[0].upper() + product[1:].lower()
     container = {
-        "Bread" = "bag"
-        ""
+        "Bread" : "bag",
+        "Beer" : "bootle",
+        "Candy" : "plastic"
     }
+    if input1 in container:
+        return container[input1]
+    else:
+        return None
+
+print(getContainer("bread"))
+print(getContainer("Beer"))
+print(getContainer("beer"))
+print(getContainer("Candy"))
+
+print(getContainer("Cheese"))
+print("\nJust checking the type of Non dict element:- ")
+print(type(getContainer("Cheese")))
+
+# The program is complete.
