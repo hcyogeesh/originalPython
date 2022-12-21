@@ -65,13 +65,11 @@ _________
 """ 
 # Your code should go here:
 
-# def rBurp():
-a = "i"
-b = a * 3
-c = a * 0
+rBurp = lambda instances : "Bu{}p".format((instances * "r")) if instances >= 1 else "Please input instances of r more than 1."
+print(rBurp(2))
+print(rBurp(3))
+print(rBurp(0))
+print(rBurp(5))
+print(rBurp(9))
 
-print(a)
-print(b)
-print(c)
-
-# *) Expect num to always be >= 1.
+# The program is complete.

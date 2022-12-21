@@ -57,3 +57,12 @@ _________
 """ 
 # Your code should go here:
 
+valueASCII = lambda input1 : ord(input1)
+
+print(valueASCII("A"))
+print(valueASCII("a"))
+print(valueASCII("m"))
+print(valueASCII("["))
+print(valueASCII("\\"))
+
+# The program is complete.
