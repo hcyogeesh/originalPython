@@ -88,12 +88,10 @@ _________
 
 def trueFalseInt(int1):
     return True if int1 % 2 == 0 else False
-    # if int1 % 2 == 0:
-    #     return True
-    # else:
-    #     return False
 
 print(trueFalseInt(5))
 print(trueFalseInt(6))
+print(trueFalseInt(0))
+print(trueFalseInt(99))
 
-    # Write a function that returns True if the given integer is even, and False if it's odd.
+# The program is complete.

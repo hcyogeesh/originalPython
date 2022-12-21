@@ -4,7 +4,7 @@
 Create a function that returns its given argument, but by using a lambda function.
 A lambda function is constructed like so:
 ___
-lambda_func=lambda """parameters""":#code here
+lambda_func=lambda ***parameters***:#code here
 _____
 
 
@@ -47,6 +47,13 @@ Python Lambda Functions
 https://www.guru99.com/python-lambda-function.html
 A Lambda Function in Python programming is an anonymous function or a function having no name. It is a small and restricted function having no more than one line. Just …
 _________
-""" 
+"""
 # Your code should go here:
 
+lamdaFunction = lambda a : a
+
+print(lamdaFunction(9))
+print(lamdaFunction("Hey!"))
+print(lamdaFunction(True))
+
+# The program is complete.
