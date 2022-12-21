@@ -9,3 +9,4 @@
 9. VE = 52 - Implementation of only str type inputs only.
 10. VE = 54 - Check the outputs and study the algorithms, properly.
 11. VE = 88 - Flip the Boolean. Optimise the code, and improve the bool logic. <!--Important. -->
+12. VE = 90 - Just check the outputs, will you.
