@@ -59,3 +59,11 @@ _________
 """ 
 # Your code should go here:
 
+isPlural = lambda str1 : True if str1[-1].lower() == "s" else False
+
+print(isPlural("Nitkarsh"))
+print(isPlural("strings"))
+print(isPlural("S"))
+print(isPlural("sayS"))
+
+# The program is complete.

@@ -50,3 +50,17 @@ _________
 """ 
 # Your code should go here:
 
+
+# pos_com(1) ➞ 2
+#
+# pos_com(3) ➞ 8
+#
+# pos_com(10) ➞ 1024
+# _____
+#
+#
+#
+# [Notes]
+#
+# All numbers will be whole and positive.
+# #
