@@ -62,3 +62,10 @@ _________
 """ 
 # Your code should go here:
 
+list1 = range(1, 10)
+first, second, thrid, other* = list1
+
+print(first)
+print(second)
+print(thrid)
+print(other)

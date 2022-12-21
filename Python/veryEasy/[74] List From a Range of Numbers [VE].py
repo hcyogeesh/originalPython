@@ -55,22 +55,13 @@ _________
 """ 
 # Your code should go here:
 
-numRange = lambda start , end :
+numRange = lambda start , end : list(range(start+1, end)) if start <= end else [] if start == end else "Please specify proper inputs."  # Yeah, maybe readability is being sacrificed, maybe.
 
-# ___
-# range_of_num(2, 4) ➞ [3]
-#
-# range_of_num(5, 9) ➞ [6, 7, 8]
-#
-# range_of_num(2, 11) ➞ [3, 4, 5, 6, 7, 8, 9, 10]
-# _____
-#
-#
-#
-# [Notes]
-#
-# ___
-# *) start will always be <= end.
-# *) start and end are NOT included in the final list.
-# *) If start == end, return an empty list.
-# _
+print(numRange(2, 4))
+print(numRange(5, 9))
+print(numRange(2, 11))
+print(numRange(9, 9))
+print(numRange(3, 3))
+print((numRange(10, 3)))
+
+# The program is complete.
