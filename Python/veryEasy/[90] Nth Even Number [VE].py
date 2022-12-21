@@ -47,3 +47,19 @@ _________
 """ 
 # Your code should go here:
 
+def nthEven(nth):
+    return range(0,100, 2)
+a = range(0, 100, 2)
+for i in a:
+    print(i)
+# print(a)
+# ___
+# nth_even(1) ➞ 0
+# # 0 is first even number
+#
+# nth_even(2) ➞ 2
+# # 2 is second even number
+#
+# nth_even(100) ➞ 198
+# _____
+#
