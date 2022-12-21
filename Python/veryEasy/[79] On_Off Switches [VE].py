@@ -50,17 +50,11 @@ _________
 """ 
 # Your code should go here:
 
+diffOnOffPatterns = lambda nSwitches : 2 ** nSwitches
 
-# pos_com(1) ➞ 2
-#
-# pos_com(3) ➞ 8
-#
-# pos_com(10) ➞ 1024
-# _____
-#
-#
-#
-# [Notes]
-#
-# All numbers will be whole and positive.
-# #
+print(diffOnOffPatterns(1))
+print(diffOnOffPatterns(3))
+print(diffOnOffPatterns(10))
+print(diffOnOffPatterns(0))
+
+# The program is complete.

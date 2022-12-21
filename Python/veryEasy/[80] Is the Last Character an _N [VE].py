@@ -47,3 +47,11 @@ _________
 """ 
 # Your code should go here:
 
+nLastIs = lambda rName1 : True if rName1[-1].lower() == "n" else False
+
+print(nLastIs("Nitkarsh"))
+print(nLastIs("n"))
+print(nLastIs("N"))
+print(nLastIs("Dean"))
+
+# The program is complete.
