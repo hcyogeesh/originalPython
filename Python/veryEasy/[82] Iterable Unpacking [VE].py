@@ -41,3 +41,12 @@ _________
 """ 
 # Your code should go here:
 
+def iterUnpack():
+    list1 = range(1,10)
+    head, *tail = list1
+    print(head)
+    print(tail)
+
+iterUnpack()
+
+# The program is complete.

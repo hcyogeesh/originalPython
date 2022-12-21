@@ -65,3 +65,13 @@ _________
 """ 
 # Your code should go here:
 
+# def rBurp():
+a = "i"
+b = a * 3
+c = a * 0
+
+print(a)
+print(b)
+print(c)
+
+# *) Expect num to always be >= 1.
