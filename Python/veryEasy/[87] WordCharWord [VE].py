@@ -40,3 +40,5 @@ _________
 """ 
 # Your code should go here:
 
+replaceMethod = lambda replacer, toBeStr : toBeStr.replace(" ", replacer)
+
