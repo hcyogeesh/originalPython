@@ -61,3 +61,10 @@ _________
 """ 
 # Your code should go here:
 
+checkEvenOdd = lambda int1 : "even" if int1 % 2 == 0 else "odd"
+
+print(checkEvenOdd(3))
+print(checkEvenOdd(146))
+print(checkEvenOdd(19))
+print(checkEvenOdd(-12))
+print(checkEvenOdd(-121))

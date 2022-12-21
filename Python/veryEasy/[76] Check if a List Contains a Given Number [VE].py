@@ -71,18 +71,13 @@ _________
 #     if toCheck in list1:
 #         return True
 #     else:
-#         False
+#         return False
 
 toCheck = lambda list1, toCheck : True if toCheck in list1 else False
 
 print(toCheck([1, 2, 3, 4, 5], 3))
 print(toCheck([1, 1, 2, 1, 1], 3))
 print(toCheck([5, 5, 5, 6], 5))
+print(toCheck([], 5))
 
-# check([1, 2, 3, 4, 5], 3) ➞ True
-#
-# check([1, 1, 2, 1, 1], 3) ➞ False
-#
-# check([5, 5, 5, 6], 5) ➞ True
-#
-# check([], 5) ➞ False
+# The program is complete.
