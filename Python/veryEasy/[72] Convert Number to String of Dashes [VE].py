@@ -61,3 +61,35 @@ _________
 """ 
 # Your code should go here:
 
+numToDashes = lambda n : ("-" * n) if n >=1 and n <= 60 else "Please specify the proper range."
+
+print("Actual outputs: ")
+print(numToDashes(1))
+print(numToDashes(5))
+print(numToDashes(3))
+print("\nConfirmation of tests:- ")
+print("Type of outputs: ")
+print(type(numToDashes(1)))
+print(type(numToDashes(5)))
+print(type(numToDashes(3)))
+
+print("\nLengths of outputs:")
+print(len(numToDashes(1)))
+print(len(numToDashes(5)))
+print(len(numToDashes(3)))
+# num_to_dashes(1) ➞ "-"
+#
+# num_to_dashes(5) ➞ "-----"
+#
+# num_to_dashes(3) ➞ "---"
+# _____
+#
+#
+#
+# [Notes]
+#
+# ___
+# *) You will be provided integers ranging from 1 to 60.
+# *) Don't forget to return your result as a string.
+# *) If you get stuck on a challenge, find help in the Resources tab.
+# *) If you're really stuck, unlock solutions in the Solutions tab.

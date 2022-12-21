@@ -58,7 +58,8 @@ _________
 
 # def isOdd(num):
 #     return True if num % 2 == 1 else False
-isOdd = lambda num : return True if num % 2 == 1 else False
+
+isOdd = lambda num : True if num % 2 == 1 else False
 
 print(isOdd(-5))
 print(isOdd(25))
