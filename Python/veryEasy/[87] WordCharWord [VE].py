@@ -42,3 +42,10 @@ _________
 
 replaceMethod = lambda replacer, toBeStr : toBeStr.replace(" ", replacer)
 
+
+print("\n Replace method outputs: ")
+print(replaceMethod("R", "python is fun"))
+print(replaceMethod("#", "hello world!"))
+print(replaceMethod("#", " "))
+
+# The program is complete.
