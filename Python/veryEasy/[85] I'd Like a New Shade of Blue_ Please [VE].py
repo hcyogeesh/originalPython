@@ -64,4 +64,18 @@ Area is the space inside of a two-dimensional shape. We can also think of area a
 _________
 """ 
 # Your code should go here:
+from math import floor as flr
 
+""" Method 1 """
+# def wallCanPaint(sqmtr, widths, heights):
+#     return flr(sqmtr/(widths * heights))
+
+""" Method 2 """
+wallCanPaint = lambda sqmtr, widths, heights : flr(sqmtr/(widths * heights)) if sqmtr > 0 and widths > 0 and heights > 0 else "Please input positive value."
+
+print(wallCanPaint(100, 4, 5))
+print(wallCanPaint(10,15, 12))
+print(wallCanPaint(41, 3, 6))
+print(wallCanPaint(0, 1, 2))
+
+# The program is complete.

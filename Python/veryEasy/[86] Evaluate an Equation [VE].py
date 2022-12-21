@@ -21,7 +21,8 @@ _____
 ___
 *) Don't print, return a value.
 *) Return the value, not the equation.
-*) The method used to solve this challenge should not be used in practice. However, it's important to be aware of how this functionality works and why it should not be used. Check the Resources for more information.
+*) The method used to solve this challenge should not be used in practice.
+However, it's important to be aware of how this functionality works and why it should not be used. Check the Resources for more information.
 ___
 
 
@@ -50,3 +51,10 @@ _________
 """ 
 # Your code should go here:
 
+eqEval = lambda equation1 : eval(equation1)
+
+print(eqEval("1+2"))
+print(eqEval("6/(9-7)"))
+print(eqEval("3+2-4"))
+
+# The program is complete.
