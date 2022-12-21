@@ -3,3 +3,4 @@
 3. Try and except and else and finally blocks I have to learn.
 4. Learn how to declare if some input1 is of particular data type then false else true.
 5. How to test true/false for the list elements?
+6. Except whole numbers others can be even or positive?

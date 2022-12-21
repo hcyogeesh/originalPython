@@ -14,7 +14,8 @@ ___
 *) Deepen your understanding of the particular language you're coding with.
 ___
 
-I would also add: observe and learn from the pros. Make a habit of checking the Solutions tab after solving a challenge on Edabit. There is absolutely nothing wrong in assimilating features of someone else's coding style, especially if yours is not yet fully developed.
+I would also add: observe and learn from the pros. Make a habit of checking the Solutions tab after solving a challenge on Edabit.
+There is absolutely nothing wrong in assimilating features of someone else's coding style, especially if yours is not yet fully developed.
 
 
 [Goal]
@@ -67,7 +68,10 @@ _________
 _________
 Python Conditions
 https://www.w3schools.com/python/python_conditions.asp
-In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
+In this example we use two variables, a and b,
+ which are used as part of the if statement to test whether b is greater than a.
+ As a is 33, and b is 200,
+ we know that …
 _________
 _________
 Python Booleans
@@ -82,3 +86,14 @@ _________
 """ 
 # Your code should go here:
 
+def trueFalseInt(int1):
+    return True if int1 % 2 == 0 else False
+    # if int1 % 2 == 0:
+    #     return True
+    # else:
+    #     return False
+
+print(trueFalseInt(5))
+print(trueFalseInt(6))
+
+    # Write a function that returns True if the given integer is even, and False if it's odd.
