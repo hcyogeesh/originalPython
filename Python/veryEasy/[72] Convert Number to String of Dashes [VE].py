@@ -77,19 +77,5 @@ print("\nLengths of outputs:")
 print(len(numToDashes(1)))
 print(len(numToDashes(5)))
 print(len(numToDashes(3)))
-# num_to_dashes(1) ➞ "-"
-#
-# num_to_dashes(5) ➞ "-----"
-#
-# num_to_dashes(3) ➞ "---"
-# _____
-#
-#
-#
-# [Notes]
-#
-# ___
-# *) You will be provided integers ranging from 1 to 60.
-# *) Don't forget to return your result as a string.
-# *) If you get stuck on a challenge, find help in the Resources tab.
-# *) If you're really stuck, unlock solutions in the Solutions tab.
+
+# The program is complete.

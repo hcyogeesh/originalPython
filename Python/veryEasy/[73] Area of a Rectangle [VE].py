@@ -57,3 +57,11 @@ _________
 """ 
 # Your code should go here:
 
+rectArea = lambda length, breadth : length * breadth if length > 0 and breadth > 0 else -1
+
+print(rectArea(3, 4))
+print(rectArea(10, 11))
+print(rectArea(-1, 5))
+print(rectArea(0, 2))
+
+# The program is complete.

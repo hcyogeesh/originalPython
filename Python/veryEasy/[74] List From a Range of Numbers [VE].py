@@ -55,3 +55,22 @@ _________
 """ 
 # Your code should go here:
 
+numRange = lambda start , end : 
+
+# ___
+# range_of_num(2, 4) ➞ [3]
+#
+# range_of_num(5, 9) ➞ [6, 7, 8]
+#
+# range_of_num(2, 11) ➞ [3, 4, 5, 6, 7, 8, 9, 10]
+# _____
+#
+#
+#
+# [Notes]
+#
+# ___
+# *) start will always be <= end.
+# *) start and end are NOT included in the final list.
+# *) If start == end, return an empty list.
+# _
