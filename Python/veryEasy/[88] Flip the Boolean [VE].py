@@ -52,9 +52,18 @@ _________
 def flipBool(boolVal):
     if boolVal == True:
         return 0
-    else:
+    elif boolVal == False:
         return 1
-# ___
+    elif boolVal == 1:
+        return "Hello"
+    else:
+        return True
+
+print(flipBool(True))
+print(flipBool(False))
+print(flipBool(1))
+print(flipBool(0))
+ # ___
 # flip_bool(True) ➞ 0
 #
 # flip_bool(False) ➞ 1
@@ -62,4 +71,3 @@ def flipBool(boolVal):
 # flip_bool(1) ➞ 0
 #
 # flip_bool(0) ➞ 1
-# _
