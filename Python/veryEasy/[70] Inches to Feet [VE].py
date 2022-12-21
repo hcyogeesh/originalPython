@@ -39,8 +39,17 @@ _________
 _________
 3 Ways to Convert Inches to Feet
 https://www.wikihow.com/Convert-Inches-to-Feet
-Converting inches to feet is quick and easy once you know how to do it! The basics to remember are that there are 12 inches in one foot, so you can get from inches to f …
+Converting inches to feet is quick and easy once you know how to do it! The basics to remember are that there are 12 inches in one foot, so you can get from inches to ft …
 _________
 """ 
 # Your code should go here:
 
+inchesToFts = lambda inches : inches/12 if inches >= 12 else 0
+
+print(inchesToFts(324))
+print(inchesToFts(12))
+print(inchesToFts(36))
+print(inchesToFts(11))
+print(inchesToFts(5))
+
+# The program is complete.

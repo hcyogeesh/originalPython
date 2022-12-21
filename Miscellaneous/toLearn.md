@@ -4,3 +4,4 @@
 4. Learn how to declare if some input1 is of particular data type then false else true.
 5. How to test true/false for the list elements?
 6. Except whole numbers others can be even or positive?
+7. Learn python one liners, they are awesome. Learnt lambda functions and if-else one liners, learn basic common ones more.

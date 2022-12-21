@@ -49,8 +49,11 @@ Operators are used to perform operations on values and variables. These are the 
 _________
 """ 
 # Your code should go here:
-avgYearsInHouses = lambda age, moves: round(age/(moves+1)) #if moves > 0 else age
+avgYearsInHouses = lambda age, moves: round(age/(moves+1))
 
 print(avgYearsInHouses(30, 1))
 print(avgYearsInHouses(15, 2))
 print(avgYearsInHouses(80, 0))
+print(avgYearsInHouses(22,1))
+
+# This program is complete.

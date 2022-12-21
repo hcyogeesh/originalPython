@@ -1,7 +1,8 @@
 """
 ##Fix the Error: Check Whether a Given Number Is Odd
 
-Éowyn has written the function is_odd() to check if a given number is odd or not. Unfortunately, the function does not return the correct result for all the inputs. Help her fix the error.
+Éowyn has written the function is_odd() to check if a given number is odd or not.
+Unfortunately, the function does not return the correct result for all the inputs. Help her fix the error.
 ___
 def is_odd(num):
   return num % 1 == 1 or 2
@@ -55,3 +56,14 @@ _________
 """ 
 # Your code should go here:
 
+# def isOdd(num):
+#     return True if num % 2 == 1 else False
+isOdd = lambda num : return True if num % 2 == 1 else False
+
+print(isOdd(-5))
+print(isOdd(25))
+print(isOdd(0))
+print(isOdd(1000))
+print(isOdd(2))
+
+# The program is complete.
