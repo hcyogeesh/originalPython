@@ -63,3 +63,34 @@ _________
 """ 
 # Your code should go here:
 
+def containSpaces(str1):
+    if " " in str1:
+        return True
+    else:
+        return False
+
+# def contSpacesMeth()
+
+import match from re
+
+
+
+# has_spaces("hello") ➞ False
+# 
+# has_spaces("hello, world") ➞ True
+# 
+# has_spaces(" ") ➞ True
+# 
+# has_spaces("") ➞ False
+# 
+# has_spaces(",./!@#") ➞ False
+# _____
+# 
+# 
+# 
+# [Notes]
+# 
+# ___
+# *) An empty string does not contain any spaces.
+# *) Try doing this without RegEx.
+# _
