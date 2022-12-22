@@ -75,5 +75,15 @@ _________
 """ 
 # Your code should go here:
 
+checkTitle = lambda str1 : True if str1 == str1.title() else False
 
+print(checkTitle("A Mind Boggling Achievement"))
+print(checkTitle("A Simple Python Program!"))
+print(checkTitle("Water is transparent"))
 
+# check_title("A Mind Boggling Achievement") ➞ True
+#
+# check_title("A Simple Python Program!") ➞ True
+#
+# check_title("Water is transparent") ➞ False
+# _
