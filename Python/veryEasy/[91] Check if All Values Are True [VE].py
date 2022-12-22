@@ -50,3 +50,15 @@ _________
 """ 
 # Your code should go here:
 
+allTrue = lambda bool1, bool2, bool3 : True if bool1 and bool2 and bool3 == True else False
+
+print(allTrue(True, True, True))
+print(allTrue(True, False, True))
+print(allTrue(5, 4, 3, 2, 1, 0)) # Oh so this is where the gap is.
+
+# all_truthy(True, True, True) ➞ True
+#
+# all_truthy(True, False, True) ➞ False
+#
+# all_truthy(5, 4, 3, 2, 1, 0) ➞ False
+# _
