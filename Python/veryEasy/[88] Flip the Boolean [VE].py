@@ -50,15 +50,12 @@ _________
 # Your code should go here:
 
 def flipBool(boolVal):
-    if boolVal == 1:
-        return False
-    elif boolVal == 0:
-        return True
-    elif boolVal == True:
-        return 0
+    if boolVal == True:
+        return int(0)
+    elif boolVal == False:
+        return int(1)
     else:
-        return 1
-
+        return 0
 
 
 print(flipBool(True))
@@ -66,11 +63,5 @@ print(flipBool(False))
 print(flipBool(1))
 print(flipBool(0))
 print(flipBool(21))
- # ___
-# flip_bool(True) ➞ 0
-#
-# flip_bool(False) ➞ 1
-#
-# flip_bool(1) ➞ 0
-#
-# flip_bool(0) ➞ 1
+
+# The program is complete.
