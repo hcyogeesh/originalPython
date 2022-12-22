@@ -56,9 +56,9 @@ _________
 # Your code should go here:
 
 # calculator = lambda num1, num2, operator : eval(num1,operator,num2)
-calculate = lambda num1, num2, operator : eval(num1 + int(operator) + num2)
+calculate = lambda num1, num2, operator1 : type(operator1) #eval("num1 operator1 num2")
 # print(calculator(4, 9, "+"))
-print(calculate(1,3,"+"))
+print(calculate(1, 3, "+"))
 print(calculate(4, 5, "-"))
 # ___
 # calculate(4, 9, "+") ➞ 13
