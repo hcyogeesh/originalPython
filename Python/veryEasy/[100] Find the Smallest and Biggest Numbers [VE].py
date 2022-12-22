@@ -70,3 +70,23 @@ _________
 """ 
 # Your code should go here:
 
+def minMax(list1):
+    if len(list1) > 0:
+        return [min(list1), max(list1)]
+    else:
+        return "The list must have at least one element."
+
+minMax1 = lambda list1 : list((min(list1), max(list1))) if len(list1) > 0 else "The list must have at least one element."
+
+print(minMax([1, 2, 3, 4, 5]))
+print(minMax1([1, 2, 3, 4, 5]))
+print(minMax([2334454, 5]))
+print(minMax1([2334454, 5]))
+print(minMax([1]))
+print(minMax1([1]))
+print(minMax([0]))
+print(minMax1([0]))
+print(minMax([]))
+print(minMax1([]))
+
+# The program is complete.
