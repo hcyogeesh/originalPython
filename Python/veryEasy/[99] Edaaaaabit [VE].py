@@ -49,3 +49,21 @@ _________
 """ 
 # Your code should go here:
 
+def multipleA(num1):
+    a = "a" * round(num1)
+    return "Ed{0}bit".format(a)
+
+multipleA1 = lambda num1 : "Ed{0}bit".format(("a" * round(num1)))
+print(multipleA(2))
+print(multipleA(3))
+print(multipleA(1.5))
+print(multipleA(-2))
+print(multipleA(0))
+print("\nLambda equipped method:-")
+print(multipleA1(2))
+print(multipleA1(3))
+print(multipleA1(1.5))
+print(multipleA1(-2))
+print(multipleA1(0))
+
+# The program is complete.
