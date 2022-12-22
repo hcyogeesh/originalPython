@@ -66,10 +66,5 @@ print(removeFirst("Nitkarsh"))
 print(removeFirst("Anmol"))
 print(removeFirst("Rohit"))
 print(removeFirst("Purshotam"))
-# new_word("apple") ➞ "pple"
-#
-# new_word("cherry") ➞ "herry"
-#
-# new_word("plum") ➞ "lum"
-# _____
-# #
+
+# The program is complete.
