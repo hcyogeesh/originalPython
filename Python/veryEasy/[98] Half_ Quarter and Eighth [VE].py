@@ -45,3 +45,26 @@ _________
 """ 
 # Your code should go here:
 
+def halfQuarterEight(num1):
+    half = num1 / 2
+    quarter = num1 / 4
+    eighth = num1 / 8
+    return half, quarter, eighth
+
+print(halfQuarterEight(6))
+print(halfQuarterEight(22))
+print(halfQuarterEight(25))
+
+# half_quarter_eighth(6) ➞ [3, 1.5, 0.75]
+#
+# half_quarter_eighth(22) ➞ [11, 5.5, 2.75]
+#
+# half_quarter_eighth(25) ➞ [12.5, 6.25, 3.125]
+# _____
+#
+#
+#
+# [Notes]
+#
+# The order of the list is: half, quarter, eighth.
+#
