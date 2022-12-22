@@ -11,3 +11,4 @@
 11. VE = 88 - Flip the Boolean. Optimise the code, and improve the bool logic. <!--Important. --> Recheck it again.
 12. VE = 90 - Just check the outputs, will you.
 13. VE = 91 - Just check the output of 91.
+14. VE = 93 - Optimise it further, how would you do it?

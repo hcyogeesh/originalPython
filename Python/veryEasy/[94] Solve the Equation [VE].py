@@ -40,3 +40,11 @@ _________
 """ 
 # Your code should go here:
 
+equational = lambda eqInput : eval(eqInput)
+
+print(equational("1+1"))
+print(equational("7*4-2"))
+print(equational("2**3"))
+print(equational("1+1+1+1+1"))
+
+# The program is complete.
