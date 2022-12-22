@@ -55,21 +55,30 @@ _________
 """ 
 # Your code should go here:
 
-# calculator = lambda num1, num2, operator : eval(num1,operator,num2)
-calculate = lambda num1, num2, operator1 : type(operator1) #eval("num1 operator1 num2")
-# print(calculator(4, 9, "+"))
-print(calculate(1, 3, "+"))
-print(calculate(4, 5, "-"))
-# ___
-# calculate(4, 9, "+") ➞ 13
-#
-# calculate(12, 5, "-") ➞ 7
-#
-# calculate(6, 3, "*") ➞ 18
-#
-# calculate(25, 5, "//") ➞ 5
-#
-# calculate(14, 3, "%") ➞ 2
-#
-# calculate(7, 2, "/") ➞ 3.5
-# _
+# calculator = lambda num1, num2, operator1 :eval(str("num1 operator1 num2"))
+# def calculator(num1, num2, operator1):
+#     return eval(str(num1, operator1, num2))
+def calculator(num1, num2, operator1):
+    if operator1 == "+":
+        return num1 + num2
+    elif operator1 == "-":
+        return num1 - num2
+    elif operator1 == "*":
+        return num1 * num2
+    elif operator1 == "//":
+        return num1 // num2
+    elif operator1 == "%":
+        return num1 % num2
+    elif operator1 == "/":
+        return num1 / num2
+    else:
+        return "Input operator out of scope."
+
+print(calculator(4, 9, "+"))
+print(calculator(12, 5, "-"))
+print(calculator(6, 3, "*"))
+print(calculator(25, 5, "//"))
+print(calculator(14, 3, "%"))
+print(calculator(7, 2, "/"))
+
+# The program is complete.
