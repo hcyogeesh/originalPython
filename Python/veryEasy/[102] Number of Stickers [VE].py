@@ -56,3 +56,18 @@ _________
 """ 
 # Your code should go here:
 
+def reqSticker(nSideLen):
+    return (nSideLen ** 2) * 6
+
+reqStickLamb = lambda nSideLen : (nSideLen ** 2) * 6
+
+print(reqSticker(1))
+print(reqSticker(2))
+print(reqSticker(3))
+
+print("\nThe lambda function: ")
+print(reqStickLamb(1))
+print(reqStickLamb(2))
+print(reqStickLamb(3))
+
+# The program is complete.
