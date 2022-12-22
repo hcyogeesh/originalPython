@@ -54,3 +54,14 @@ _________
 """ 
 # Your code should go here:
 
+def listPrint(nth):
+    listedView = []
+    for i in range(1, nth+1):
+        listedView.append(i)
+    return listedView
+
+print(listPrint(1))
+print(listPrint(3))
+print(listPrint(6))
+
+# The program is complete.

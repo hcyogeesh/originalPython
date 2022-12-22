@@ -45,3 +45,15 @@ _________
 """ 
 # Your code should go here:
 
+shapeArea = lambda base, height, shape : output if shape.lower() == "parallelogram" else if shape.lower() == "triangle"
+
+
+
+# area_shape(2, 3, "triangle") ➞ 3
+#
+# area_shape(8, 6, "parallelogram") ➞ 48
+#
+# area_shape(2.9, 1.3, "parallelogram") ➞ 3.77
+# _____
+#
+#
