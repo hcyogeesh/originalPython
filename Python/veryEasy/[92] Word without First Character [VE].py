@@ -60,3 +60,16 @@ _________
 """ 
 # Your code should go here:
 
+removeFirst = lambda word : word[1:] if len(word) > 0  else "Please input a valid word."
+
+print(removeFirst("Nitkarsh"))
+print(removeFirst("Anmol"))
+print(removeFirst("Rohit"))
+print(removeFirst("Purshotam"))
+# new_word("apple") ➞ "pple"
+#
+# new_word("cherry") ➞ "herry"
+#
+# new_word("plum") ➞ "lum"
+# _____
+# #
