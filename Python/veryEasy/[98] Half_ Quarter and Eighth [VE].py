@@ -51,20 +51,13 @@ def halfQuarterEight(num1):
     eighth = num1 / 8
     return half, quarter, eighth
 
+halfQuarterEight1 = lambda num1 : ((num1 / 2), (num1 / 4), (num1 / 8))
+
 print(halfQuarterEight(6))
 print(halfQuarterEight(22))
 print(halfQuarterEight(25))
+print(halfQuarterEight1(6))
+print(halfQuarterEight1(22))
+print(halfQuarterEight1(25))
 
-# half_quarter_eighth(6) ➞ [3, 1.5, 0.75]
-#
-# half_quarter_eighth(22) ➞ [11, 5.5, 2.75]
-#
-# half_quarter_eighth(25) ➞ [12.5, 6.25, 3.125]
-# _____
-#
-#
-#
-# [Notes]
-#
-# The order of the list is: half, quarter, eighth.
-#
+# The program is complete.
