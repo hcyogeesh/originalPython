@@ -50,3 +50,34 @@ _________
 """ 
 # Your code should go here:
 
+def minFunc(set1):
+    return min(set1)
+def maxFunc(set1):
+    return max(set1)
+def popFunc(set1):
+    return set1.pop()
+
+def listFunc(set1):
+    return list(set1)[0]
+
+print("minFunc is being used here.")
+print(minFunc({"Nitkarsh"}))
+print(minFunc({True}))
+print(minFunc({11037}))
+
+print("\nmaxFunc is being used here.")
+print(maxFunc({"Nitkarsh"}))
+print(maxFunc({True}))
+print(maxFunc({11037}))
+
+print("\npopFunc is being used here.")
+print(popFunc({"Nitkarsh"}))
+print(popFunc({True}))
+print(popFunc({11037}))
+
+print("\nlistFunc is being used here.")
+print(listFunc({"Nitkarsh"}))
+print(listFunc({True}))
+print(listFunc({11037}))
+
+# The program is complete.

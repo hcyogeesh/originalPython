@@ -45,3 +45,11 @@ _________
 """ 
 # Your code should go here:
 
+def countD(str1):
+    return (str1.lower()).count('d')
+
+print(countD("d"))
+print(countD("ddDDd"))
+print(countD("My friend Dylan got distracted in school."))
+print(countD("Debris was scattered all over the yard."))
+print(countD("The rodents hibernated in their den."))
