@@ -63,13 +63,20 @@ _________
 def switchMethod(num1, num2, operator):
     match operator:
         case "+" | "-" | "%":
-            return "Hello"
-            # return ("{0}{1}{2}".format(num1, operator, num2))
+            # return "Hello"
+            print(("{0}{1}{2}".format(num1, operator, num2)))
         case _:
             print("Please enter the operator from the given.")
 
 print(switchMethod(1, 2, "*"))
 
+def matchCaseTest():
+    responseCode = 400
+    match responseCode:
+        case 400:
+            return "Hello, 400 is returned."
+        case 401 | 402:
+            return "Hello, 403"
 # 1 + 2 = 3
 # operate(7, 10, "-") ➞ -3
 # 7 - 10 = -3
