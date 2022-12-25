@@ -60,3 +60,22 @@ _________
 """ 
 # Your code should go here:
 
+def switchMethod(num1, num2, operator):
+        match operator:
+            case "+" | "-" | "%" :
+                return eval(("{0}{1}{2}".format(num1, operator, num2)))
+                break
+            case _:
+                print("Please enter the operator from the given.")
+                break
+
+print(switchMethod(1, 2, "*"))
+            # operoperate(1, 2, "+") ➞ 3
+# 1 + 2 = 3
+
+# operate(7, 10, "-") ➞ -3
+# 7 - 10 = -3
+
+# operate(20, 10, "%") ➞ 0
+# 20 % 10 = 0
+_____
