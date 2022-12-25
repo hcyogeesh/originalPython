@@ -74,11 +74,11 @@ contSpaceLambda = lambda str1 : True if " " in str1 else False
 # def contSpacesMeth() # Method way is remaining, though.
 import re
 
-def regContSpace(str1): # Learn to use RegEx Well.
-    if re.match(" ", str1) == True:
-        return True
-    else:
-        return False
+# def regContSpace(str1): # Learn to use RegEx Well.
+#     if re.match([ ], str1) == True:
+#         return True
+#     else:
+#         return False
 
 print(containSpaces("Hello"))
 print(containSpaces("Hello World!"))
@@ -86,26 +86,8 @@ print(containSpaces(""))
 print(contSpaceLambda("Hello"))
 print(contSpaceLambda("Hello World!"))
 print(contSpaceLambda(""))
-print(regContSpace("Hello!"))
-print(regContSpace("Hello World!"))
-print(regContSpace(""))
+# print(regContSpace("Hello!"))
+# print(regContSpace("Hello World!"))
+# print(regContSpace(""))
 
-# has_spaces("hello") ➞ False
-# 
-# has_spaces("hello, world") ➞ True
-# 
-# has_spaces(" ") ➞ True
-# 
-# has_spaces("") ➞ False
-# 
-# has_spaces(",./!@#") ➞ False
-# _____
-# 
-# 
-# 
-# [Notes]
-# 
-# ___
-# *) An empty string does not contain any spaces.
-# *) Try doing this without RegEx.
-# _
+# The program is complete.
