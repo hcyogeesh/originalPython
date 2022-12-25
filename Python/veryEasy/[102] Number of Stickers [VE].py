@@ -61,6 +61,7 @@ def reqSticker(nSideLen):
 
 reqStickLamb = lambda nSideLen : (nSideLen ** 2) * 6
 
+print("The user declared function: ")
 print(reqSticker(1))
 print(reqSticker(2))
 print(reqSticker(3))

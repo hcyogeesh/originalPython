@@ -71,8 +71,15 @@ def containSpaces(str1):
 
 contSpaceLambda = lambda str1 : True if " " in str1 else False
 
-# def contSpacesMeth() # Method way is remaining, though.
-import re
+def spaceCountMethod(str1):
+    if str1.count(" ") <= 0:
+        return False
+    else:
+        return True
+
+spaceCountMethodLambda = lambda str1 : False if str1.count(" ") <= 0 else True
+
+# import re
 
 # def regContSpace(str1): # Learn to use RegEx Well.
 #     if re.match([ ], str1) == True:
@@ -86,6 +93,12 @@ print(containSpaces(""))
 print(contSpaceLambda("Hello"))
 print(contSpaceLambda("Hello World!"))
 print(contSpaceLambda(""))
+print(spaceCountMethod("Hello"))
+print(spaceCountMethod("Hello World"))
+print(spaceCountMethod(""))
+print(spaceCountMethodLambda("Hello"))
+print(spaceCountMethodLambda("Hello World"))
+print(spaceCountMethodLambda(""))
 # print(regContSpace("Hello!"))
 # print(regContSpace("Hello World!"))
 # print(regContSpace(""))

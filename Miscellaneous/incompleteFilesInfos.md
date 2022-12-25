@@ -12,4 +12,5 @@
 12. VE = 90 - Just check the outputs, will you.
 13. VE = 91 - Just check the output of 91.
 14. VE = 93 - Optimise it further, how would you do it?
-15. VE = 101 - Do optimise and do and implement all the fancy things, for sure!
+15. VE = 101 - Do optimise and do and implement all the fancy things, for sure! <!--Learn little bit about RegEx. -->
+16. VE = 102 - Understand the logic of the program, didn't got it. For sure, brother.
