@@ -1,7 +1,9 @@
 """
 ##Tallest Birthday Cake Candles
 
-You are in charge of the cake for a child's birthday. You have decided the cake will have one candle for each year of their total age. They will only be able to blow out the tallest of the candles. Count how many candles are tallest.
+You are in charge of the cake for a child's birthday.
+You have decided the cake will have one candle for each year of their total age.
+They will only be able to blow out the tallest of the candles. Count how many candles are tallest.
 
 
 [Examples]
@@ -42,3 +44,10 @@ _________
 """ 
 # Your code should go here:
 
+def birthdayCakeCandles(list1):
+    return list1.count(max(list1))
+
+print(birthdayCakeCandles([3, 2, 1, 3]))
+print(birthdayCakeCandles([82, 49, 82, 82, 41, 82, 15, 63, 38, 25]))
+
+# The program is complete.

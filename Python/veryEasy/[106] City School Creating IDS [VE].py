@@ -2,7 +2,10 @@
 ##City School Creating IDS
 
 Many IDS (for emails or Google ID) are created using the person's name.
-Create a function that will return a four-character ID using the person's first name and last name. The first character will be the first letter of the first name but in lowercase. The next three characters will be the first three characters of the last name, but the first letter will be capitalized and the other two will be in lower case.
+Create a function that will return a four-character ID using the person's first name and last name.
+The first character will be the first letter of the first name but in lowercase.
+The next three characters will be the first three characters of the last name,
+but the first letter will be capitalized and the other two will be in lower case.
 
 
 [Examples]
@@ -46,3 +49,15 @@ _________
 """ 
 # Your code should go here:
 
+def createID(fName, lName):
+    letter1 = fName[0].lower()
+    letter2 = lName[0].upper()
+    letter3N4 = lName[1:3].lower()
+    return letter1+letter2+letter3N4
+
+print(createID("mary", "lamb"))
+print(createID("John", "SMITH"))
+print(createID("mary", "smith"))
+print(createID("Nitkarsh", "Chourasia"))
+
+# The program is complete.
