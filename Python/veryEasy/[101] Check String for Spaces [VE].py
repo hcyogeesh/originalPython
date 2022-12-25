@@ -82,11 +82,13 @@ def regContSpace(str1): # Learn to use RegEx Well.
 
 print(containSpaces("Hello"))
 print(containSpaces("Hello World!"))
+print(containSpaces(""))
 print(contSpaceLambda("Hello"))
 print(contSpaceLambda("Hello World!"))
-print(contSpaceLambda(" "))
+print(contSpaceLambda(""))
 print(regContSpace("Hello!"))
 print(regContSpace("Hello World!"))
+print(regContSpace(""))
 
 # has_spaces("hello") ➞ False
 # 
