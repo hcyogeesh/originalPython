@@ -63,3 +63,39 @@ _________
 """ 
 # Your code should go here:
 
+class EmpDetails:
+    name = "xEmployee"
+    surname = "yEmployee"
+    empId = 123
+
+Nitkarsh = EmpDetails()
+Purshotam = EmpDetails()
+Pallavi = EmpDetails()
+Rohit = EmpDetails()
+
+Nitkarsh.name = "Nitkarsh Chourasia"
+Purshotam.name = "Purshotam Bohra"
+Pallavi.name = "Pallavi Chaurasiya"
+Rohit.name = "Rohit Chourasia"
+Nitkarsh.surname = "NC"
+Purshotam.surname = "PBJI"
+Pallavi.surname = "egoistic"
+Rohit.surname = "RC"
+Nitkarsh.empId = 1
+Nitkarsh.empId = 2
+Purshotam.empId = 3
+Pallavi.empId = 4
+Rohit.empId = 5
+
+print(Nitkarsh.name)
+print(Nitkarsh.surname)
+print(Nitkarsh.empId)
+print(Purshotam.name)
+print(Purshotam.surname)
+print(Purshotam.empId)
+print(Pallavi.name)
+print(Pallavi.surname)
+print(Pallavi.empId)
+print(Rohit.name)
+print(Rohit.surname)
+print(Rohit.empId)
