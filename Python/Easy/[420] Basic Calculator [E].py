@@ -65,3 +65,31 @@ _________
 """ 
 # Your code should go here:
 
+def calculator(num1, operator, num2):
+    if num1 == 0 or num2 == 0 and operator == "/":
+        return "Can't divide by 0!"
+    else:
+        # num1, num2 = str(num1), str(num2)
+        num2 = str(num2)
+        num1 = str(num1)
+        match operator:
+            case "/" :
+                return
+
+print(calculator(2, "+", 2))
+print(calculator(2, "*", 2))
+print(calculator(4, "/", 2))
+
+# calculator(2, "+", 2) ➞ 4
+#
+# calculator(2, "*", 2) ➞ 4
+#
+# calculator(4, "/", 2) ➞ 2
+# _____
+#
+#
+#
+# [Notes]
+#
+# If the input tries to divide by 0, return: "Can't divide by 0!"
+#
