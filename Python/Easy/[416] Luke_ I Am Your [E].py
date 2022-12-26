@@ -76,3 +76,18 @@ _________
 """ 
 # Your code should go here:
 
+def relation(str1):
+    match str1.lower():
+        case "darth vader" :
+            return "Luke, I am your father."
+        case "leia" :
+            return "Luke, I am your sister."
+        case "han" :
+            return "Luke, I am your brother in law."
+# Is there any more better way to solve this?
+
+print(relation("Darth Vader"))
+print(relation("Leia"))
+print(relation("Han"))
+
+# The program is complete.

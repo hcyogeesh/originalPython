@@ -74,9 +74,3 @@ print(totalSeriesResistance([16, 3.5, 6]))
 print(totalSeriesResistance([0.5, 0.5]))
 
 # The program is complete.
-# series_resistance([1, 5, 6, 3]) ➞ "15 ohms"
-#
-# series_resistance([16, 3.5, 6]) ➞ "25.5 ohms"
-#
-# series_resistance([0.5, 0.5]) ➞ "1.0 ohm"
-# _
