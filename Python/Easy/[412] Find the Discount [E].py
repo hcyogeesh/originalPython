@@ -46,3 +46,11 @@ _________
 """ 
 # Your code should go here:
 
+def disPrice(ogPrice, discPerc):
+    return round((ogPrice * (1 -( discPerc/100))),2)
+
+print(disPrice(1500, 50))
+print(disPrice(89, 20))
+print(disPrice(100, 75))
+
+# The program is complete.

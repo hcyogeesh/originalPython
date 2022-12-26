@@ -64,22 +64,13 @@ _________
 def stutter(str1):
     if len(str1) >= 2:
         return "{0}... {1}... {2}?".format(str1[:2].lower(), str1[:2].lower(), str1.lower())
+    else:
+        return "String length should be at least two characters long."
 
 print(stutter("incredible"))
 print(stutter("enthusiastic"))
 print(stutter("outstanding"))
 print(stutter("NItKArsh"))
+print(stutter("a"))
 
-# stutter("incredible") ➞ "in... in... incredible?"
-#
-# stutter("enthusiastic") ➞ "en... en... enthusiastic?"
-#
-# stutter("outstanding") ➞ "ou... ou... outstanding?"
-# _____
-#
-#
-#
-# [Notes]
-#
-# Assume all input is in lower case and at least two characters long.
-#
+# The program is complete.
