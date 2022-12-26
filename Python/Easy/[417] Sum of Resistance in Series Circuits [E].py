@@ -63,39 +63,20 @@ _________
 """ 
 # Your code should go here:
 
-class EmpDetails:
-    name = "xEmployee"
-    surname = "yEmployee"
-    empId = 123
+def totalSeriesResistance(list1):
+    if sum(list1) <=1:
+        return "{sum} ohm".format(sum=(sum(list1)))
+    else:
+        return "{sum} ohms".format(sum=(sum(list1)))
 
-Nitkarsh = EmpDetails()
-Purshotam = EmpDetails()
-Pallavi = EmpDetails()
-Rohit = EmpDetails()
+print(totalSeriesResistance([1, 5, 6, 3]))
+print(totalSeriesResistance([16, 3.5, 6]))
+print(totalSeriesResistance([0.5, 0.5]))
 
-Nitkarsh.name = "Nitkarsh Chourasia"
-Purshotam.name = "Purshotam Bohra"
-Pallavi.name = "Pallavi Chaurasiya"
-Rohit.name = "Rohit Chourasia"
-Nitkarsh.surname = "NC"
-Purshotam.surname = "PBJI"
-Pallavi.surname = "egoistic"
-Rohit.surname = "RC"
-Nitkarsh.empId = 1
-Nitkarsh.empId = 2
-Purshotam.empId = 3
-Pallavi.empId = 4
-Rohit.empId = 5
-
-print(Nitkarsh.name)
-print(Nitkarsh.surname)
-print(Nitkarsh.empId)
-print(Purshotam.name)
-print(Purshotam.surname)
-print(Purshotam.empId)
-print(Pallavi.name)
-print(Pallavi.surname)
-print(Pallavi.empId)
-print(Rohit.name)
-print(Rohit.surname)
-print(Rohit.empId)
+# The program is complete.
+# series_resistance([1, 5, 6, 3]) ➞ "15 ohms"
+#
+# series_resistance([16, 3.5, 6]) ➞ "25.5 ohms"
+#
+# series_resistance([0.5, 0.5]) ➞ "1.0 ohm"
+# _

@@ -6,3 +6,4 @@
 6. Except whole numbers others can be even or positive?
 7. Learn python one liners, they are awesome. Learnt lambda functions and if-else one liners, learn basic common ones more.
 8. eval() function to use different variable parameters in it.
+9. Learn arrays in python.
