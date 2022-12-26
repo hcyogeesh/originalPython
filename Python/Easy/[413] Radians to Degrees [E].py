@@ -52,15 +52,19 @@ How to Convert Radians to Degrees
 https://stackoverflow.com/questions/9875964/how-can-i-convert-radians-to-degrees-with-python
 Radians and degrees are two separate units of measure that help people express and communicate precise changes in direction. Wikipedia has some great intuition with the …
 _________
-""" 
+"""
+
 # Your code should go here:
 
-math import pi
+from math import pi
 def radToDeg(radians):
+    return round((radians * (180/pi)),1)
 
+print(radToDeg(1))
+print(radToDeg(20))
+print(radToDeg(50))
 # radians_to_degrees(1) ➞ 57.3
 
 # radians_to_degrees(20) ➞ 1145.9
 
 # radians_to_degrees(50) ➞ 2864.8
-_
