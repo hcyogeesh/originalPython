@@ -69,16 +69,20 @@ def calculator(num1, operator, num2):
     if num1 == 0 or num2 == 0 and operator == "/":
         return "Can't divide by 0!"
     else:
-        # num1, num2 = str(num1), str(num2)
-        num2 = str(num2)
-        num1 = str(num1)
+        num1, num2 = str(num1), str(num2)
         match operator:
             case "/" :
-                return
+                return eval('num1 / num2')
+            case "+" :
+                return eval('num1 + num2')
+            case "*" :
+                return eval('num1 * num2')
 
 print(calculator(2, "+", 2))
 print(calculator(2, "*", 2))
 print(calculator(4, "/", 2))
+print(calculator(0, "+", 9))
+print(calculator(0, "/", 0))
 
 # calculator(2, "+", 2) ➞ 4
 #
