@@ -48,16 +48,12 @@ def endCorona(recoverCases, newCases, activeCases):
     x = 0
     daysNo = 0
     while activeCases >= 0:
-        if activeCases == 0:
-            return "Zero hogaya behen ke laude: "
-            break
         activeCases = activeCases - recoverCases + newCases
         daysNo = daysNo + 1
-    return daysNo
+    return round(daysNo)
 
 print(endCorona(4000, 2000, 77000))
-# end_corona(4000, 2000, 77000) ➞ 39
-#
-# end_corona(3000, 2000, 50699) ➞ 51
-#
-# end_corona(30000, 25000, 390205) ➞ 79
+print(endCorona(3000, 2000, 50699))
+print(endCorona(30000, 25000, 390205))
+
+# The program is complete.
