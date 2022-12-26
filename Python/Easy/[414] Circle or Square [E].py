@@ -1,7 +1,9 @@
 """
 ##Circle or Square
 
-Given the radius of a circle and the area of a square, return True if the circumference of the circle is greater than the square's perimeter and False if the square's perimeter is greater than the circumference of the circle.
+Given the radius of a circle and the area of a square,
+return True if the circumference of the circle is greater than the square's perimeter
+and False if the square's perimeter is greater than the circumference of the circle.
 
 
 [Examples]
@@ -55,3 +57,16 @@ _________
 """ 
 # Your code should go here:
 
+from math import pi
+from math import sqrt
+def circleSqaure(radius, sqArea):
+    if (2 * round(pi, 2) * radius) > (sqrt(sqArea))*4:
+        return True
+    else:
+        return False
+
+print(circleSqaure(16, 625))
+print(circleSqaure(5, 100))
+print(circleSqaure(8 ,144))
+
+# The program is complete.

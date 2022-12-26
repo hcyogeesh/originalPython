@@ -63,8 +63,5 @@ def radToDeg(radians):
 print(radToDeg(1))
 print(radToDeg(20))
 print(radToDeg(50))
-# radians_to_degrees(1) ➞ 57.3
 
-# radians_to_degrees(20) ➞ 1145.9
-
-# radians_to_degrees(50) ➞ 2864.8
+# The program is complete.
