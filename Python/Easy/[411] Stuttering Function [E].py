@@ -1,7 +1,8 @@
 """
 ##Stuttering Function
 
-Write a function that stutters a word as if someone is struggling to read it. The first two letters are repeated twice with an ellipsis ... and space after each, and then the word is pronounced with a question mark ?.
+Write a function that stutters a word as if someone is struggling to read it. The first two letters are repeated twice with an ellipsis ...
+and space after each, and then the word is pronounced with a question mark ?.
 
 
 [Examples]
@@ -60,3 +61,25 @@ _________
 """ 
 # Your code should go here:
 
+def stutter(str1):
+    if len(str1) >= 2:
+        return "{0}... {1}... {2}?".format(str1[:2].lower(), str1[:2].lower(), str1.lower())
+
+print(stutter("incredible"))
+print(stutter("enthusiastic"))
+print(stutter("outstanding"))
+print(stutter("NItKArsh"))
+
+# stutter("incredible") ➞ "in... in... incredible?"
+#
+# stutter("enthusiastic") ➞ "en... en... enthusiastic?"
+#
+# stutter("outstanding") ➞ "ou... ou... outstanding?"
+# _____
+#
+#
+#
+# [Notes]
+#
+# Assume all input is in lower case and at least two characters long.
+#
