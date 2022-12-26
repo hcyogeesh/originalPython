@@ -41,8 +41,14 @@ class Person:
     self.age = age
 
 p1 = Person("John", 36)
+p2 = Person("Nitkarsh", 22)
+p3 = Person("Pallavi", 24)
 
 print(p1.name)
 print(p1.age)
+print(p2.name)
+print(p2.age)
+print(p3.name)
+print(p3.age)
 
 
