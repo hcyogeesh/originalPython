@@ -50,3 +50,14 @@ _________
 """ 
 # Your code should go here:
 
+from math import log
+
+def solveExp(a, b):
+    return round(log(b, a))
+
+print(solveExp(4, 1024))
+print(solveExp(2, 1024))
+print(solveExp(9, 3486784401))
+print(solveExp(9, 81))
+
+# The program is complete.
