@@ -60,3 +60,18 @@ _________
 """ 
 # Your code should go here:
 
+def isCurzon(num1):
+    if (((2**num1)+1)%((2*num1)+1)) == 0:
+        return True
+    else:
+        return False
+
+print(isCurzon(5))
+print(isCurzon(10))
+print(isCurzon(14))
+print(isCurzon(50))
+print(isCurzon(53))
+print(isCurzon(65))
+print(isCurzon(13))
+
+# The program is complete.
