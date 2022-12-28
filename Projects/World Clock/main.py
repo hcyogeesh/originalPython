@@ -44,3 +44,4 @@ while (True):
   print(city, str(hour) + ":" + str(minute) + ":" + str(second))
 
 # The error is of GMT time setting. As GMT time setting outputs time as of now.
+# The error is of GMT time setting. As GMT time setting outputs time as of now.
