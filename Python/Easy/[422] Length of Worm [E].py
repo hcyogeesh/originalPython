@@ -41,5 +41,25 @@ _________
 # Your code should go here:
 
 def wormLength(length):
+    a = []
     for i in length:
-        
+        if i != "-":
+            # print("Invalid characters found.")
+            a.append("invalid")
+            break
+        a.append(i)
+    if len(a) <=0:
+        return "invalid, length cannot be zero."
+    elif "invalid" in a:
+        return "Invalid characters found."
+    else:
+        return "{} mm".format(len(a) * 10)
+
+print(wormLength("-----"))
+print(wormLength("----------"))
+print(wormLength(""))
+print(wormLength("123"))
+print(wormLength("-----________--------"))
+print(wormLength("----__-_-_---"))
+
+# The program is complete.
