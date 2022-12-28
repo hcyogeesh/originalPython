@@ -41,7 +41,7 @@ while (True):
     print(city, "is not added")
     city = "GMT" 
 
-  print(city, str(hour) + ":" + str(minute) + ":" + str(second))
+  print(city[0].upper() + city[1:].lower(), str(hour) + ":" + str(minute) + ":" + str(second))
 
 # The error is of GMT time setting. As GMT time setting outputs time as of now.
 # The error is of GMT time setting. As GMT time setting outputs time as of now.
