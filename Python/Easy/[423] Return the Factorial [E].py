@@ -71,3 +71,31 @@ _________
 """ 
 # Your code should go here:
 
+def factorial(n):
+    if n >= 0:
+        fact = 1
+        i = 1
+        while i <= n:
+            fact = i * fact
+            i = i + 1
+        return fact
+
+def factorialForLoop(n):
+    if 
+
+print(factorial(3))
+print(factorial(5))
+print(factorial(13))
+
+# factorial(3) ➞ 6
+#
+# factorial(5) ➞ 120
+#
+# factorial(13) ➞ 6227020800
+# _____
+#
+#
+#
+# [Notes]
+#
+# Assume all inputs are greater than or equal to 0.
