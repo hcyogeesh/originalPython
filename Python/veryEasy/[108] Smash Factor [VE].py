@@ -1,7 +1,8 @@
 """
 ##Smash Factor
 
-Smash factor is a term in golf that relates to the amount of energy transferred from the club head to the golf ball. The formula for calculating smash factor is ball speed divided by club speed.
+Smash factor is a term in golf that relates to the amount of energy transferred from the club head to the golf ball.
+The formula for calculating smash factor is ball speed divided by club speed.
 Create a function that takes ball speed bs and club speed cs as arguments and returns the smash factor to the nearest hundredth.
 
 
@@ -40,3 +41,11 @@ _________
 """ 
 # Your code should go here:
 
+def smashFactor(bs, cs):
+    return round(bs/cs, 2)
+
+print(smashFactor(139.4, 93.8))
+print(smashFactor(181.2, 124.5))
+print(smashFactor(154.7, 104.3))
+
+# The program is complete.

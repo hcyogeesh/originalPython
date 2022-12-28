@@ -16,3 +16,4 @@
 16. VE = 102 - Understand the logic of the program, didn't got it. For sure, brother.
 17. E = 420 - Learn to use the eval() function with parameters in it like num1 operator num2.
 18. E = 417 - Learn to use arrays in python.
+19. E = 416 - Learn to solve through dictionary.
