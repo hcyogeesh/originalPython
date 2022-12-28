@@ -1,7 +1,8 @@
 """
 ##Make My Way Home
 
-You will be given a list, showing how far James travels away from his home for each day. He may choose to travel towards or away from his house, so negative values are to be expected.
+You will be given a list, showing how far James travels away from his home for each day.
+He may choose to travel towards or away from his house, so negative values are to be expected.
 Create a function that calculates what distance James must walk to get back home.
 
 
@@ -45,3 +46,11 @@ _________
 """ 
 # Your code should go here:
 
+def distanceHome(distance):
+    return abs(sum(distance))
+
+print(distanceHome([2, 4, 2, 5]))
+print(distanceHome([-1, -4, -3, -2]))
+print(distanceHome([3, 4, -5, -2]))
+
+# The program is complete.

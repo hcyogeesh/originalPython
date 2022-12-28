@@ -44,11 +44,15 @@ _________
 # Your code should go here:
 
 def stackBoxes(n):
-    return n ** 2
+    if n >= 0:
+        return n ** 2
+    else:
+        return "Step n can only be a positive integer."
 
 print(stackBoxes(1))
 print(stackBoxes(2))
 print(stackBoxes(0))
 print(stackBoxes(10))
+print(stackBoxes(-10))
 
 # The program is complete.
