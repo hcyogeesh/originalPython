@@ -79,13 +79,27 @@ def factorial(n):
             fact = i * fact
             i = i + 1
         return fact
+    else:
+        return "n for factorial cannot be less than zero."
 
 def factorialForLoop(n):
-    if 
+    if n >= 0:
+        sum = 0
+        a = []
+        for i in range(1, n+1):
+            print(i)
+            i = i * 1
+            sum = i + sum
+            # a.append(i * 1)
+        return (i, sum)
 
 print(factorial(3))
 print(factorial(5))
 print(factorial(13))
+
+print(factorialForLoop(3))
+print(factorialForLoop(5))
+print(factorialForLoop(13))
 
 # factorial(3) ➞ 6
 #
