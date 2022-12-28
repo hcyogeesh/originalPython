@@ -45,3 +45,20 @@ _________
 """ 
 # Your code should go here:
 
+def damage(damage, speed, timeParameter):
+    if damage < 0 or speed < 0:
+        return "Invalid, speed or damage cannot be negative."
+    else:
+        match timeParameter:
+            case "second" | "sec" | "secs" | "seconds":
+                return damage * speed
+            case "minute" | "min" | "mins" | "minutes":
+                return (speed * 60) * damage
+            case "hour" | "hours" | "hr" | "hrs":
+                return (speed * (60 ** 2)) * damage
+
+print(damage(40, 5, "seconds"))
+print(damage(100, 1, "minutes"))
+print(damage(2, 100, "hrs"))
+
+# The program is complete.

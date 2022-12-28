@@ -40,3 +40,6 @@ _________
 """ 
 # Your code should go here:
 
+def wormLength(length):
+    for i in length:
+        
