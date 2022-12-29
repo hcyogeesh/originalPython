@@ -3,7 +3,7 @@ import datetime
 while (True):
   city = input("Enter city: ")
   city = city.lower()
-  current_time = datetime.datetime.now()
+  current_time = datetime.datetime.gmtime()
   hour = current_time.hour
   minute = current_time.minute
   second = current_time.second
