@@ -22,7 +22,12 @@ while (True):
   ## add more cities here
 
   elif city == "mumbai":
-    hour = hour + 5.30
+    if (minute + 30) > 60:
+      hour = hour + 6
+      minute = abs(60 - (minute + 30))
+    else:
+      hour = hour + 5
+      minute = minute + 30
 
   elif city == "beijing":
     hour = hour + 8
