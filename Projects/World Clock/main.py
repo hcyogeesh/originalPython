@@ -1,9 +1,8 @@
 import datetime  
-
 while (True):
   city = input("Enter city: ")
   city = city.lower()
-  current_time = datetime.datetime.gmtime()
+  current_time = datetime.datetime.utcnow()
   hour = current_time.hour
   minute = current_time.minute
   second = current_time.second
@@ -23,7 +22,7 @@ while (True):
   ## add more cities here
 
   elif city == "mumbai":
-    hour = hour + 5.5
+    hour = hour + 5.30
 
   elif city == "beijing":
     hour = hour + 8
