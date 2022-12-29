@@ -24,6 +24,7 @@ while (True):
   elif city == "mumbai":
     if (minute + 30) > 60:
       if hour >=24:
+        hour = abs(24 - (hour ))
         hour = hour + 6
         minute = abs(60 - (minute + 30))
     else:
