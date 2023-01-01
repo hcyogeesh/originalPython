@@ -56,3 +56,21 @@ _________
 """ 
 # Your code should go here:
 
+def colorInvert(tuple1):
+    inverted = ()
+    listConvert = tuple1
+    for i in listConvert:
+        inverted.append((255-i))
+    return tuple(inverted)
+
+print(colorInvert((255, 255, 255)))
+print(colorInvert((0, 0, 0)))
+print(colorInvert((165, 170, 221)))
+
+# color_invert((255, 255, 255)) ➞ (0, 0, 0)
+# (255, 255, 255) is the color white.
+# The opposite is (0, 0, 0), which is black.
+#
+# color_invert((0, 0, 0)) ➞ (255, 255, 255)
+#
+# color_invert((165, 170, 221)) ➞ (90, 85, 34)

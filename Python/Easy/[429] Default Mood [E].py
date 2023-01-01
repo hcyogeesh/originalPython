@@ -1,7 +1,8 @@
 """
 ##Default Mood
 
-Create a function that takes in a current mood and return a sentence in the following format: "Today, I am feeling {mood}". However, if no argument is passed, return "Today, I am feeling neutral".
+Create a function that takes in a current mood and return a sentence in the following format:
+"Today, I am feeling {mood}". However, if no argument is passed, return "Today, I am feeling neutral".
 
 
 [Examples]
@@ -45,3 +46,13 @@ _________
 """ 
 # Your code should go here:
 
+def moodToday(str1 = "neutral"):
+    return "Today, I am feeling {}.".format(str1[0].upper()+str1[1:].lower())
+    # OR
+    # return "Today, I am feeling {}.".format(str1.lower())
+
+print(moodToday("hApPy"))
+print(moodToday("SaD"))
+print(moodToday())
+
+# The program is complete.
