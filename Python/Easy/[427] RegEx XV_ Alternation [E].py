@@ -1,7 +1,8 @@
 """
 ##RegEx XV: Alternation
 
-The vertical bar | is the equivalent to "or" in RegEx. The regular expression x|y matches either "x" or "y". Write the regular expression that will match all red flag and blue flag in a string. You must use | in your expression. Flags can come in any order.
+The vertical bar | is the equivalent to "or" in RegEx. The regular expression x|y matches either "x" or "y".
+Write the regular expression that will match all red flag and blue flag in a string. You must use | in your expression. Flags can come in any order.
 
 
 [Examples]

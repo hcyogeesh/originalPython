@@ -57,3 +57,17 @@ _________
 """ 
 # Your code should go here:
 
+def parityAnalysis(int1):
+    sum1 = sum(map(int, str(int1)))
+    if sum1 % 2 == 0 and int1 % 2 == 0:
+        return True
+    elif sum1 % 2 == 1 and int1 % 2 == 1:
+        return True
+    else:
+        return False
+
+print(parityAnalysis(243))
+print(parityAnalysis(12))
+print(parityAnalysis(3))
+
+# The program is complete.
