@@ -19,3 +19,4 @@
 19. E = 416 - Learn to solve through dictionary.
 20. E = 423 - Try to optimise the first function.
 21. E = 423 - Solved but understand the different logic behind it. <!-- Easily done, high priority -->
+22. E = 424 - Solve the regex one. <!-- Take your time-->

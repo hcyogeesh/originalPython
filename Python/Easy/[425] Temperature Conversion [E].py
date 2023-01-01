@@ -62,3 +62,18 @@ _________
 """ 
 # Your code should go here:
 
+def tempConversion(celsius):
+    F = (celsius * (9/5)) + 32
+    K = (celsius + 273.15)
+    if K < 0:
+        return "Invalid because K = {} cannot be less than abs zero.".format(K)
+    else:
+        return [round(F, 2), round(K, 2)]
+
+print(tempConversion(0))
+print(tempConversion(100))
+print(tempConversion(-10))
+print(tempConversion(300.4))
+print(tempConversion(-1000))
+
+# The program is complete.
