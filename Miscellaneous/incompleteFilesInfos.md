@@ -21,3 +21,4 @@
 21. E = 423 - Solved but understand the different logic behind it. <!-- Easily done, high priority -->
 22. E = 424 - Solve the regex one. <!-- Take your time-->
 23. E = 427 - Take your time with this regex also. <!-- Take your time -->
+24. E = 431 - Binary thing to understand.
