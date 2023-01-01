@@ -64,26 +64,15 @@ _________
 def jazzify(list1):
     jazzedList = []
     for i in list1:
-        jazzedList.append(i+"7")
-    return jazzedList
+        if '7' in i:
+            jazzedList.append(i)
+        else:
+            jazzedList.append(i+"7")
+    return (str(jazzedList))
 
 print(jazzify(["G","F","C"]))
 print(jazzify(["Dm","G", "E","A"]))
 print(jazzify(["F7", "E7","A7","Ab7","Gm7","C7"]))
 print(jazzify([]))
-# jazzify(["G", "F", "C"]) ➞ ["G7", "F7", "C7"]
-#
-# jazzify(["Dm", "G", "E", "A"]) ➞ ["Dm7", "G7", "E7", "A7"]
-#
-# jazzify(["F7", "E7", "A7", "Ab7", "Gm7", "C7"]) ➞ ["F7", "E7", "A7", "Ab7", "Gm7", "C7"]
-#
-# jazzify([]) ➞ []
-# _____
-#
-#
-#
-# [Notes]
-#
-# ___
-# *) Return an empty list if the given list is empty.
-# *) You can expect all the tests to have valid chords.
+
+# The program is complete.
