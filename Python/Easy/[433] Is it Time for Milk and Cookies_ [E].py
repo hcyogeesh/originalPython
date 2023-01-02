@@ -58,28 +58,17 @@ _________
 
 import datetime
 
-# def myBirthday(inputdate1):
-#     inputdateL1  = list(inputdate1)
-    # year, month, date = map(int, inputdate1.split())
-    # nitkarsh = datetime.date(year, month, date)
-    # print(nitkarsh.year)
-    # print(nitkarsh.month)
-    # print(nitkarsh.day)
-    # return nitkarsh
-#
-# print(myBirthday("2000 11 23"))
-
-from datetime import date
 def christmasEve(year, month, date):
     date1 = datetime.date(year, month, date)
-    print(christmas.day)
-    print(christmas.month)
-    # if date1.day ==
-    print(date1.day)
-    print(date1.month)
-    print(date1.year)
     if date1.day == 24 and date1.month == 12:
-        
-    return date1
+        return True
+    else:
+        return False
 
 print(christmasEve(2000, 11, 23))
+print(christmasEve(2000,12,24))
+print(christmasEve(3000,12,24))
+print(christmasEve(2013, 12, 24))
+print(christmasEve(2013, 1, 23))
+
+# The program is complete.
