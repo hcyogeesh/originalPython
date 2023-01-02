@@ -56,3 +56,13 @@ _________
 """ 
 # Your code should go here:
 
+import datetime
+
+def myBirthday(inputdate1):
+    nitkarsh = datetime.date(inputdate1)
+    print(nitkarsh.year)
+    print(nitkarsh.month)
+    print(nitkarsh.day)
+    return nitkarsh
+
+print(myBirthday(2000,11,23))
