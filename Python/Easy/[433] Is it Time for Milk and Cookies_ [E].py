@@ -58,11 +58,13 @@ _________
 
 import datetime
 
-def myBirthday(inputdate1):
-    nitkarsh = datetime.date(inputdate1)
-    print(nitkarsh.year)
-    print(nitkarsh.month)
-    print(nitkarsh.day)
-    return nitkarsh
+def myBirthday(*inputdate1):
+    inputdateL1  = list(inputdate1)
+    # nitkarsh = datetime.date(inputdateL1)
+    # print(nitkarsh.year)
+    # print(nitkarsh.month)
+    # print(nitkarsh.day)
+    # return nitkarsh
+    return inputdateL1
 
 print(myBirthday(2000,11,23))
