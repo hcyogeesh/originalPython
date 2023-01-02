@@ -58,13 +58,22 @@ _________
 
 import datetime
 
-def myBirthday(inputdate1):
-    # inputdateL1  = list(inputdate1)
-    year, month, date = map(int, inputdate1.split())
-    nitkarsh = datetime.date(year, month, date)
-    print(nitkarsh.year)
-    print(nitkarsh.month)
-    print(nitkarsh.day)
-    return nitkarsh
+# def myBirthday(inputdate1):
+#     inputdateL1  = list(inputdate1)
+    # year, month, date = map(int, inputdate1.split())
+    # nitkarsh = datetime.date(year, month, date)
+    # print(nitkarsh.year)
+    # print(nitkarsh.month)
+    # print(nitkarsh.day)
+    # return nitkarsh
+#
+# print(myBirthday("2000 11 23"))
 
-print(myBirthday("2000 11 23"))
+def christmasEve(year, month, date):
+    date1 = date(year, month, date)
+    print(date1.date)
+    print(date1.month)
+    print(date1.year)
+    return date1
+
+print(christmasEve(2000, 11, 23))
