@@ -72,13 +72,14 @@ import datetime
 from datetime import date
 def christmasEve(year, month, date):
     date1 = datetime.date(year, month, date)
-    christmas = datetime.date(12, 24)
     print(christmas.day)
     print(christmas.month)
     # if date1.day ==
     print(date1.day)
     print(date1.month)
     print(date1.year)
+    if date1.day == 24 and date1.month == 12:
+        
     return date1
 
 print(christmasEve(2000, 11, 23))
