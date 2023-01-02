@@ -9,3 +9,4 @@
 9. Learn arrays in python.
 10. Learn to solve through dictionary.
 11. Learn decent regex...also research whether all regex are same across all languages or not.
+12. Learn binary thing properly.

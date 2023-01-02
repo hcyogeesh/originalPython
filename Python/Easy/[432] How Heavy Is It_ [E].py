@@ -67,3 +67,13 @@ _________
 """ 
 # Your code should go here:
 
+from math import pi
+def weightCylinder(radius, height):
+    volume = pi*pow(radius, 2)*height
+    return round((volume / 1000),2) # 1 cm**3 = 1 ml and 1 dm**3 = 1000ml i.e 1 litre.
+
+print(weightCylinder(4, 10))
+print(weightCylinder(30, 60))
+print(weightCylinder(15, 10))
+
+# The program is complete.
