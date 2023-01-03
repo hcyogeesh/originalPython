@@ -67,11 +67,10 @@ def sumDigits(int1):
     list1 = []
     for i in str(int1):
         list1.append(int(i))
-        return sum(list1)
+    return sum(list1)
 
 print(sumDigits(45))
-# two_digit_sum(45) ➞ 9
-#
-# two_digit_sum(38) ➞ 11
-#
-# two_digit_sum(67) ➞ 13
+print(sumDigits(38))
+print(sumDigits(67))
+
+# The program is complete.
