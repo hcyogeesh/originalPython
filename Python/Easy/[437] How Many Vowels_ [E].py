@@ -54,7 +54,10 @@ _________
 _________
 Conditions
 https://www.w3schools.com/python/python_conditions.asp
-In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
+In this example we use two variables, a and b,
+ which are used as part of the if statement to test whether b is greater than a.
+ As a is 33, and b is 200,
+ we know that …
 _________
 _________
 ForLoop
@@ -84,3 +87,15 @@ _________
 """ 
 # Your code should go here:
 
+def vowels(str1):
+    vowelList1 = ['a','e','i','o','u']
+    for i in vowelList1:
+        if i in str1:
+            str1.count(i)
+
+
+    # count_vowels("Celebration") ➞ 5
+    #
+    # count_vowels("Palm") ➞ 1
+    #
+    # count_vowels("Prediction") ➞ 4
