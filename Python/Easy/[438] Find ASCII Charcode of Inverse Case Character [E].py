@@ -1,7 +1,8 @@
 """
 ##Find ASCII Charcode of Inverse Case Character
 
-Create a function that takes a single character as an argument and returns the char code of its lowercased / uppercased counterpart.
+Create a function that takes a single character as an argument
+and returns the char code of its lowercased / uppercased counterpart.
 
 
 [Examples]
@@ -66,3 +67,9 @@ _________
 """ 
 # Your code should go here:
 
+def charCode(character):
+    lowerCase = character.lower()
+    upperCase = character.upper()
+    if character.isalpha() == True:
+        print("'{}' char code is: {}".format(upperCase, chr(upperCase)))
+        return ("'{}' char code is: {}".format(lowerCase, chr(lowerCase)))

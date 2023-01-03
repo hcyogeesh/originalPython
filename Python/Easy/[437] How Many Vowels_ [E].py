@@ -89,26 +89,22 @@ _________
 
 def vowels(str1):
     str1 = str1.lower()
-    # vowelList1 = ['a','e','i','o','u']
+    # vowelList1 = ['a','e','i','o','u'] # We can use this also.
     vowelList1 = "aeiou"
-    j = 0
-    for i in vowelList1:
-        if i in str1:
+    vowelCount = 0
+    for i in str1:
+        if i in vowelList1:
             str1.count(i)
-            j += 1
+            vowelCount += 1
         else:
             pass
-    return j
+    return vowelCount
 
 
 print(vowels("CelEbrAtion"))
 print(vowels("Palm"))
 print(vowels("Prediction"))
 print(vowels("aaa"))
-print(vowels("aeiouuuuuu"))
+print(vowels("Nitkarsh"))
 
-    # count_vowels("Celebration") ➞ 5
-    #
-    # count_vowels("Palm") ➞ 1
-    #
-    # count_vowels("Prediction") ➞ 4
+# The program is complete.

@@ -23,3 +23,4 @@
 23. E = 427 - Take your time with this regex also. <!-- Take your time -->
 24. E = 431 - Binary thing to understand.
 25. E = 436 - Solve the binary number thing.
+26. E = 437 - But understand the logic, because it was solved by my subconscious brain.
