@@ -81,3 +81,9 @@ def charCode(input1):
 print(charCode("A"))
 print(charCode(97))
 print(charCode("---")) # Solve this also.
+
+def mainCharCode(str1):
+    if str1.isalpha() == True:
+
+    else:
+        return "Please input string characters only."
