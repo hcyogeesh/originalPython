@@ -67,23 +67,28 @@ _________
 """ 
 # Your code should go here:
 
-def charCode(input1):
-    if input1.isalpha() == True:
-        lowerCase = input1.lower()
-        upperCase = input1.upper()
-        print("'{}' char code is: {}".format(upperCase, ord(upperCase)))
-        return ("'{}' char code is: {}".format(lowerCase, ord(lowerCase)))
-    elif input1.isnumeric() == True:
-        return ("'{}' char code is: {}".format(input1, ord(input1)))
-    else:
-        return "Someting, wrong please check the code."
+# def charCode(input1):
+#     if input1.isalpha() == True:
+#         lowerCase = input1.lower()
+#         upperCase = input1.upper()
+#         print("'{}' char code is: {}".format(upperCase, ord(upperCase)))
+#         return ("'{}' char code is: {}".format(lowerCase, ord(lowerCase)))
+#     elif input1.isnumeric() == True:
+#         return ("'{}' char code is: {}".format(input1, ord(input1)))
+#     else:
+#         return "Someting, wrong please check the code."
 
-print(charCode("A"))
-print(charCode(97))
-print(charCode("---")) # Solve this also.
+# print(charCode("A"))
+# print(charCode(97))
+# print(charCode("---")) # Solve this also.
 
 def mainCharCode(str1):
     if str1.isalpha() == True:
-
+        return ord(str1.swapcase())
     else:
         return "Please input string characters only."
+
+print(mainCharCode("A"))
+print(mainCharCode("a"))
+
+# The program is complete.

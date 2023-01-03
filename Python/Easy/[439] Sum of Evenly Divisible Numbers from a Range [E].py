@@ -53,3 +53,29 @@ _________
 """ 
 # Your code should go here:
 
+def evenDiv(start, end, divider):
+    sumList = []
+    for i in range(start+1, end+1, divider):
+        print(i)
+        sumList.append(i)
+    return sum(sumList)
+
+print(evenDiv(1,10,20)) # Some kind of modulo I have to use, for sure.
+# print(evenDiv(1, 10, 2))
+# print(evenDiv(1, 10, 3))
+
+# evenly_divisible(1, 10, 20) ➞ 0
+# No number between 1 and 10 can be evenly divided by 20.
+#
+# evenly_divisible(1, 10, 2) ➞ 30
+# 2 + 4 + 6 + 8 + 10 = 30
+#
+# evenly_divisible(1, 10, 3) ➞ 18
+# 3 + 6 + 9 = 18
+# _____
+#
+#
+#
+# [Notes]
+#
+# Return 0 if there is no number between a and b that can be evenly divided by c.
