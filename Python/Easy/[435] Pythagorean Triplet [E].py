@@ -71,25 +71,21 @@ import random
 # Your code should go here:
 
 def isTriplet(*inputs):
-    list1 = list(inputs).sort()
-    pass
+    list1 = list(inputs)
+    list1.sort()
+    appendList = []
+    for i in list1[:-1]:
+        appendList.append((pow(i,2)))
+    sumFinal = sum(appendList)
+    if sumFinal == (list1[-1]) ** 2:
+        return True
+    else:
+        return False
 
-a = [5,2,4,6,9]
-random.shuffle(a)
-random.shuffle(a)
-a.sort()
-print(a)
-for i in a[:-1]:
-    print(pow(i, 2))
+print(isTriplet(3, 4, 5))
+print(isTriplet(13, 5, 12))
+print(isTriplet(1, 2, 3))
+print(isTriplet(4,5,6))
+print(isTriplet(3,4,5))
 
-# is_triplet(3, 4, 5) ➞ True
-# 3² + 4² = 25
-# 5² = 25
-
-# is_triplet(13, 5, 12) ➞ True
-# 5² + 12² = 169
-# 13² = 169
-
-# is_triplet(1, 2, 3) ➞ False
-# 1² + 2² = 5
-# 3² = 9
+# The program is complete.
