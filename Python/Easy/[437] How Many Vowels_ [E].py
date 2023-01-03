@@ -105,7 +105,7 @@ print(vowels("CelEbrAtion"))
 print(vowels("Palm"))
 print(vowels("Prediction"))
 print(vowels("aaa"))
-print(vowels("eee"))
+print(vowels("aeiouuuuuu"))
 
     # count_vowels("Celebration") ➞ 5
     #
