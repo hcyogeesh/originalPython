@@ -88,11 +88,23 @@ _________
 # Your code should go here:
 
 def vowels(str1):
+    str1 = str1.lower()
     vowelList1 = ['a','e','i','o','u']
+    j = 0
     for i in vowelList1:
         if i in str1:
             str1.count(i)
+            j += 1
+        else:
+            pass
+    return j
 
+
+print(vowels("CelEbrAtion"))
+print(vowels("Palm"))
+print(vowels("Prediction"))
+print(vowels("aaa"))
+print(vowels("eee"))
 
     # count_vowels("Celebration") ➞ 5
     #
