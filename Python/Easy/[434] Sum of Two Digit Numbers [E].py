@@ -65,7 +65,7 @@ _________
 
 from datetime import datetime
 import pytz
-mumbaiTz = pytz.timezone("India")
+mumbaiTz = pytz.timezone("Asia/Calcutta")
 dateTimeMumbai = datetime.now(mumbaiTz)
 print(dateTimeMumbai)
 # print(datetime.now(pytz.timezone('India/Mumbai')))
