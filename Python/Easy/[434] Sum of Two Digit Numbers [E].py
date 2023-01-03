@@ -63,13 +63,13 @@ _________
 """ 
 # Your code should go here:
 
-from datetime import datetime
-import pytz
-mumbaiTz = pytz.timezone("Asia/Calcutta")
-dateTimeMumbai = datetime.now(mumbaiTz)
-print(dateTimeMumbai)
-# print(datetime.now(pytz.timezone('India/Mumbai')))
+def sumDigits(int1):
+    list1 = []
+    for i in str(int1):
+        list1.append(int(i))
+        return sum(list1)
 
+print(sumDigits(45))
 # two_digit_sum(45) ➞ 9
 #
 # two_digit_sum(38) ➞ 11
