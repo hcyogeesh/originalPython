@@ -89,7 +89,8 @@ _________
 
 def vowels(str1):
     str1 = str1.lower()
-    vowelList1 = ['a','e','i','o','u']
+    # vowelList1 = ['a','e','i','o','u']
+    vowelList1 = "aeiou"
     j = 0
     for i in vowelList1:
         if i in str1:
