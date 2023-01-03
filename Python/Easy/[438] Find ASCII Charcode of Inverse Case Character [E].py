@@ -67,9 +67,17 @@ _________
 """ 
 # Your code should go here:
 
-def charCode(character):
-    lowerCase = character.lower()
-    upperCase = character.upper()
-    if character.isalpha() == True:
-        print("'{}' char code is: {}".format(upperCase, chr(upperCase)))
-        return ("'{}' char code is: {}".format(lowerCase, chr(lowerCase)))
+def charCode(input1):
+    if input1.isalpha() == True:
+        lowerCase = input1.lower()
+        upperCase = input1.upper()
+        print("'{}' char code is: {}".format(upperCase, ord(upperCase)))
+        return ("'{}' char code is: {}".format(lowerCase, ord(lowerCase)))
+    elif input1.isnumeric() == True:
+        return ("'{}' char code is: {}".format(input1, ord(input1)))
+    else:
+        return "Someting, wrong please check the code."
+
+print(charCode("A"))
+print(charCode(97))
+print(charCode("---")) # Solve this also.
