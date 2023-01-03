@@ -55,3 +55,13 @@ _________
 """ 
 # Your code should go here:
 
+def correctSigns(signsTrue):
+    return eval(signsTrue)
+
+print(correctSigns("3 < 7 < 11"))
+print(correctSigns("13 > 44 > 33 > 1"))
+print(correctSigns("1 < 2 < 6 < 9 > 3"))
+print(correctSigns("1<2>3"))
+print(correctSigns("1<2<3"))
+
+# The program is complete.
