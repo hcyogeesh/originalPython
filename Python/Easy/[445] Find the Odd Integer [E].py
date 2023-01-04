@@ -52,19 +52,23 @@ _________
 
 def oddCountIndex(list1):
     uniquieList1 = list(set(list1))
-    print(uniquieList1)
+    print(uniquieList1, "unique list print:")
     appended = [] #If dictionary is used then it will good, right?
     for i in uniquieList1:
         if i in list1:
             count = list1.count(i)
             appended.append(count)
-    print(appended)
+    print(appended, "appended print")
     finalAppend = []
     for i in appended:
         if i % 2 == 1:
-            finalAppend.append(i)
+            finalAppend.append(i) # From here everything is good. # Plan is to point the index in appended and then unique list and thus print out the integer.
+    finalAppend1 = int("".join(finalAppend))
+    print(type(finalAppend1))
+    indexation = appended.index(finalAppend1)
+    print(indexation, "indexation check it, of counts")
+    return finalAppend, "finalappend print"
 
-    return finalAppend
 print(oddCountIndex([1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]))
 print(oddCountIndex([20, 1, 1, 2, 2, 3, 3, 5, 5, 4, 20, 4, 5]))
 print(oddCountIndex([10]))
