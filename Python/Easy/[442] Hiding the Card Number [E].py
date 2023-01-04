@@ -62,7 +62,14 @@ _________
 
 def cardHide(input1):
     print(len(input1))
-    
+    output = []
+    slicedInput1 = input1[:-4]
+    # print(slicedInput1)
+    for i in slicedInput1:
+        # b = slicedInput1.replace(i, "*")
+        output.append(i.replace(i, "*"))
+        joinedOutput = "".join(output)
+    return joinedOutput+input1[-4:]
 
 print(cardHide("1234123456785678"))
 print(cardHide("8754456321113213"))
