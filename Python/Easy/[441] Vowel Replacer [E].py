@@ -47,13 +47,16 @@ _________
 
 def replaceVowels(str1, replacer1):
     vowelStr = "aeiou"
-    for i in str1.lower():
-        word = []
-        if i == replacer1:
+    word = []
+    for i in str1:
+        if i.lower() in vowelStr:
             word.append(replacer1)
         else:
             word.append(i)
-        return word
+    returnStr = str(word)
+    for i in word:
+        a = print(i, end='')
+    return a
 
 print(replaceVowels("the aardvark","#"))
 print(replaceVowels("minnie mouse","?"))
