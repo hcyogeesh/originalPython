@@ -53,27 +53,10 @@ def replaceVowels(str1, replacer1):
             word.append(replacer1)
         else:
             word.append(i)
-    returnStr = str(word)
-    for i in word:
-        a = print(i, end='')
-    return a
+    return ("".join(word))
 
 print(replaceVowels("the aardvark","#"))
 print(replaceVowels("minnie mouse","?"))
 print(replaceVowels("shakesapeare","*"))
 
-    # replace_vowels("the aardvark", "#") ➞ "th# ##rdv#rk"
-    #
-    # replace_vowels("minnie mouse", "?") ➞ "m?nn?? m??s?"
-    #
-    # replace_vowels("shakespeare", "*") ➞ "sh*k*sp**r*"
-    # _____
-    #
-    # [Notes]
-    #
-    # All
-    # characters
-    # will
-    # be in lower
-    # case.
-
+# The program is complete.
