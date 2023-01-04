@@ -51,8 +51,23 @@ _________
 # Your code should go here:
 
 def oddCountIndex(list1):
-    
+    uniquieList1 = list(set(list1))
+    print(uniquieList1)
+    appended = [] #If dictionary is used then it will good, right?
+    for i in uniquieList1:
+        if i in list1:
+            count = list1.count(i)
+            appended.append(count)
+    print(appended)
+    finalAppend = []
+    for i in appended:
+        if i % 2 == 1:
+            finalAppend.append(i)
 
+    return finalAppend
+print(oddCountIndex([1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]))
+print(oddCountIndex([20, 1, 1, 2, 2, 3, 3, 5, 5, 4, 20, 4, 5]))
+print(oddCountIndex([10]))
 # find_odd([1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]) ➞ -1
 #
 #
