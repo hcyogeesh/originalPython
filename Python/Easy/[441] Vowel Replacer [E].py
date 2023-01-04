@@ -45,3 +45,32 @@ _________
 """ 
 # Your code should go here:
 
+def replaceVowels(str1, replacer1):
+    vowelStr = "aeiou"
+    for i in str1.lower():
+        word = []
+        if i == replacer1:
+            word.append(replacer1)
+        else:
+            word.append(i)
+        return word
+
+print(replaceVowels("the aardvark","#"))
+print(replaceVowels("minnie mouse","?"))
+print(replaceVowels("shakesapeare","*"))
+
+    # replace_vowels("the aardvark", "#") ➞ "th# ##rdv#rk"
+    #
+    # replace_vowels("minnie mouse", "?") ➞ "m?nn?? m??s?"
+    #
+    # replace_vowels("shakespeare", "*") ➞ "sh*k*sp**r*"
+    # _____
+    #
+    # [Notes]
+    #
+    # All
+    # characters
+    # will
+    # be in lower
+    # case.
+
