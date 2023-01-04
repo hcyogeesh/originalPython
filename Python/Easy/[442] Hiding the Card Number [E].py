@@ -61,31 +61,15 @@ _________
 # Your code should go here:
 
 def cardHide(input1):
-    print(len(input1))
     output = []
     slicedInput1 = input1[:-4]
-    # print(slicedInput1)
-    for i in slicedInput1:
-        # b = slicedInput1.replace(i, "*")
+    for i in input1[:-4]:
         output.append(i.replace(i, "*"))
-        joinedOutput = "".join(output)
-    return joinedOutput+input1[-4:]
+    return "".join(output)+input1[-4:]
+
 
 print(cardHide("1234123456785678"))
 print(cardHide("8754456321113213"))
 print(cardHide("35123413355523"))
 
-# card_hide("1234123456785678") ➞ "************5678"
-#
-# card_hide("8754456321113213") ➞ "************3213"
-#
-# card_hide("35123413355523") ➞ "**********5523"
-# _____
-#
-#
-#
-# [Examples]
-#
-# ___
-# *) Ensure you return a string.
-# *) The length of the string must remain the same as the input.
+# The program is complete.
