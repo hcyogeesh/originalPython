@@ -1,7 +1,8 @@
 """
 ##Shuffle the Name
 
-Create a function that takes a string (will be a person's first and last name) and returns a string with the first and last name swapped.
+Create a function that takes a string (will be a person's first and last name) and
+returns a string with the first and last name swapped.
 
 
 [Examples]
@@ -65,8 +66,21 @@ _________
 _________
 Conditions
 https://www.w3schools.com/python/python_conditions.asp
-In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
+In this example we use two variables, a and b,
+ which are used as part of the if statement to test whether b is greater than a.
+ As a is 33, and b is 200,
+ we know that …
 _________
 """ 
 # Your code should go here:
 
+def nameShuffle(fullname):
+    fname, lname = fullname.split(" ")
+    return "{0} {1}".format(lname, fname)
+
+print(nameShuffle("Nitkarsh Chourasia"))
+print(nameShuffle("Donald Trump"))
+print(nameShuffle("Pallavi Chaurasiya"))
+print(nameShuffle("Purshotam Bohra"))
+
+# The program is complete.
