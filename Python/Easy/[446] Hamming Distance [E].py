@@ -30,7 +30,7 @@ _____
 Both strings will have the same length.
 
 
-[loops] [strings] 
+[loops] [strings]
 
 
 
@@ -66,28 +66,27 @@ Hamming Distance Between Two Strings
 https://www.geeksforgeeks.org/hamming-distance-two-strings/
 You are given two strings of equal length, you have to find the Hamming Distance between these string. Where the Hamming distance between two strings of equal length is …
 _________
-""" 
+"""
 # Your code should go here:
 
 def hammingDistance(str1, str2):
     if len(str1) == len(str2):
         a = []
-        for i in str1:
-            for j in str2:
-                if i != j:
-                    a.append(i)
-                else:
-                    pass
+        # while(True):
+
+        for i in range(0, len(str1)):
+            if str1[i] != str2[i]:
+                a.append(i)
+            else:
+                pass
+        #print(len(str1))
+        #print(len(str2))
         return len(a)
     else:
         return "Lengths of both strings should be same."
 
 print(hammingDistance("abcde", "bcdef"))
-print(hammingDistance(("abcde", "abcde"))
+print(hammingDistance("abcde", "abcde"))
 print(hammingDistance("strong", "strung"))
 
-# hamming_distance("abcde", "bcdef") ➞ 5
-#
-# hamming_distance("abcde", "abcde") ➞ 0
-#
-# hamming_distance("strong", "strung") ➞ 1
+# The program is complete.
