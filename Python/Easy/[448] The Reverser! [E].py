@@ -21,7 +21,7 @@ _____
 There will be no punctuation in any of the test cases.
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -47,6 +47,14 @@ reversed() Function
 https://www.programiz.com/python-programming/methods/built-in/reversed
 Returns the reversed iterator of the given sequence.
 _________
-""" 
+"""
 # Your code should go here:
 
+def reverseAll(str1):
+    print((reversed(str1)).swapcase())
+
+print(reverseAll("Hello World"))
+print(reverseAll("Reverse"))
+print(reverseAll("Radar"))
+
+# The program is complete.

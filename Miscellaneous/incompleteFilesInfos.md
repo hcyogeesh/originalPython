@@ -26,4 +26,4 @@
 26. E = 437 - But understand the logic, because it was solved by my subconscious brain.
 27. E = 438 - Solve the given problem, efficiently.
 28. E = 445 - Find the Odd Integer[E].py (Should do it as soon as possible, reason it is almost done, you know.)
-29. 
+29. E = 448 - The Reverser memory address issue.
