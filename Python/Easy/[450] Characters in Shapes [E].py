@@ -68,8 +68,11 @@ _________
 """
 # Your code should go here:
 
-def countCharacter(str1):
-    return len(str1)
+def countCharacter(list1):
+    totallen = 0
+    for wordLen in list1:
+        totallen += len(wordLen)
+    return totallen
 
 print(countCharacter([
   "###",
@@ -89,3 +92,5 @@ print(countCharacter([
 print(countCharacter([]))
 
 print(countCharacter(["", ""]))
+
+# The program is complete.
