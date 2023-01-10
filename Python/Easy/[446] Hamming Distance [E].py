@@ -69,3 +69,4 @@ _________
 """ 
 # Your code should go here:
 
+def hamming
