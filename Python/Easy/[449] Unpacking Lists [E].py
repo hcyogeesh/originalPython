@@ -34,7 +34,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -50,6 +50,14 @@ Destructuring
 https://blog.tecladocode.com/destructuring-in-python/
 In this post we take a look at destructuring, also called "unpacking". We can use it to split a collection into single values, e.g. for multiple assignment.
 _________
-""" 
+"""
 # Your code should go here:
 
+def unpackList(list1):
+    first, *middle, last = list1
+    print(first)
+    print(middle)
+    return last
+print(unpackList([1, 2, 3, 4, 5, 6]))
+
+# The program is complete.

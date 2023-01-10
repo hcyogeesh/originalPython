@@ -34,7 +34,7 @@ _____
 Return 0 if the given list is empty.
 
 
-[arrays] [language_fundamentals] [strings] 
+[arrays] [language_fundamentals] [strings]
 
 
 
@@ -65,6 +65,27 @@ Finding the Amount of Characters of All Words in a List
 https://stackoverflow.com/questions/25934586/finding-the-amount-of-characters-of-all-words-in-a-list-in-python
 Finding the amount of characters of all words in a list in Python.
 _________
-""" 
+"""
 # Your code should go here:
 
+def countCharacter(str1):
+    return len(str1)
+
+print(countCharacter([
+  "###",
+  "###",
+  "###"
+]))
+
+print(countCharacter([
+  "22222222",
+  "22222222",
+]))
+
+print(countCharacter([
+  "------------------"
+]))
+
+print(countCharacter([]))
+
+print(countCharacter(["", ""]))
