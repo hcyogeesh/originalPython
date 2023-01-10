@@ -69,4 +69,25 @@ _________
 """ 
 # Your code should go here:
 
-def hamming
+def hammingDistance(str1, str2):
+    if len(str1) == len(str2):
+        a = []
+        for i in str1:
+            for j in str2:
+                if i != j:
+                    a.append(i)
+                else:
+                    pass
+        return len(a)
+    else:
+        return "Lengths of both strings should be same."
+
+print(hammingDistance("abcde", "bcdef"))
+print(hammingDistance(("abcde", "abcde"))
+print(hammingDistance("strong", "strung"))
+
+# hamming_distance("abcde", "bcdef") ➞ 5
+#
+# hamming_distance("abcde", "abcde") ➞ 0
+#
+# hamming_distance("strong", "strung") ➞ 1

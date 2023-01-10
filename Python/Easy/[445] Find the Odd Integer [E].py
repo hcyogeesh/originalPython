@@ -21,7 +21,7 @@ _____
 There will always only be one integer that appears an odd number of times.
 
 
-[arrays] [bit_operations] [loops] [math] 
+[arrays] [bit_operations] [loops] [math]
 
 
 
@@ -47,7 +47,7 @@ How can I count the occurrences of a list item?
 https://stackoverflow.com/questions/2600191/how-can-i-count-the-occurrences-of-a-list-item
 Discussions on how to count occurrences in a list without using count() method.
 _________
-""" 
+"""
 # Your code should go here:
 
 def oddCountIndex(list1):
