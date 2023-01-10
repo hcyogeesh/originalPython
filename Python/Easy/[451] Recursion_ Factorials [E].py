@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[numbers] [recursion] 
+[numbers] [recursion]
 
 
 
@@ -79,6 +79,17 @@ factorial()
 https://www.geeksforgeeks.org/factorial-in-python/
 Not many people know, but python offers a direct function that can compute the factorial of a number without writing the whole code for computing factorial.
 _________
-""" 
+"""
 # Your code should go here:
 
+def recursionFactorial(num1):
+    result = 1
+    for i in range(1, num1+1):
+        result *= i
+    return result
+
+print(recursionFactorial(5))
+print(recursionFactorial(3))
+print(recursionFactorial(2))
+print(recursionFactorial(1))
+print(recursionFactorial(0))
