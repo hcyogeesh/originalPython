@@ -27,7 +27,7 @@ ___
 
 
 
-[arrays] [formatting] [loops] 
+[arrays] [formatting] [loops]
 
 
 
@@ -78,6 +78,34 @@ Python Lists
 https://developers.google.com/edu/python/lists
 Python has a great built-in list type named "list". List literals are written within square brackets [ ]. Lists work similarly to strings -- use the len() function and …
 _________
-""" 
+"""
 # Your code should go here:
 
+def filterList(list1):
+    numbersOnly = []
+    for i in list1:
+        if isinstance(i, (float, int)) == True:
+            if i >= 0:
+                numbersOnly.append(i)
+            else:
+                return "Please only enter positive integers in the list."
+
+    noRepeating = list(set(numbersOnly))
+    return noRepeating
+
+
+print(filterList([1, 2, "a", "b"]))
+print(filterList([1, "a","b",0,15]))
+print(filterList([1, 2, "aasf", "1", "123", 123]))
+
+# filter_list([1, 2, "a", "b"]) ➞ [1, 2]
+#
+# filter_list([1, "a", "b", 0, 15]) ➞ [1, 0, 15]
+#
+# filter_list([1, 2, "aasf", "1", "123", 123]) ➞ [1, 2, 123]
+# _
+# # *) Zero is a non-negative integer.
+# # *) The given list only has integers and strings.
+# # *) Numbers in the list should not repeat.
+# # *) The original order must be maintained.
+# # _
