@@ -86,26 +86,18 @@ def filterList(list1):
     for i in list1:
         if isinstance(i, (float, int)) == True:
             if i >= 0:
-                numbersOnly.append(i)
+                if i not in numbersOnly:
+                    numbersOnly.append(i)
             else:
                 return "Please only enter positive integers in the list."
 
-    noRepeating = list(set(numbersOnly))
-    return noRepeating
-
+    return numbersOnly
 
 print(filterList([1, 2, "a", "b"]))
-print(filterList([1, "a","b",0,15]))
+print(filterList([1, "a", "b", 0, 15]))
+print(filterList([213, 41, 0, 0, 0, 31, "ewr", "er"]))
 print(filterList([1, 2, "aasf", "1", "123", 123]))
+print(filterList([1, 2.232, 231.1321, "asf", "asf"]))
+print(filterList([-12, "2134"]))
 
-# filter_list([1, 2, "a", "b"]) ➞ [1, 2]
-#
-# filter_list([1, "a", "b", 0, 15]) ➞ [1, 0, 15]
-#
-# filter_list([1, 2, "aasf", "1", "123", 123]) ➞ [1, 2, 123]
-# _
-# # *) Zero is a non-negative integer.
-# # *) The given list only has integers and strings.
-# # *) Numbers in the list should not repeat.
-# # *) The original order must be maintained.
-# # _
+# The program is complete.
