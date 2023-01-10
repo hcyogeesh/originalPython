@@ -87,9 +87,15 @@ def recursionFactorial(num1):
     for i in range(1, num1+1):
         result *= i
     return result
+# Or we can use another factorial function and number.
+# def factorial(input1):
+#   import math
+#   print(math.factorial(input1))
 
 print(recursionFactorial(5))
 print(recursionFactorial(3))
 print(recursionFactorial(2))
 print(recursionFactorial(1))
 print(recursionFactorial(0))
+
+# The program is complete.
