@@ -50,11 +50,30 @@ _________
 """
 # Your code should go here:
 
-def reverseAll(str1):
-    print((reversed(str1)).swapcase())
+#def reverseAll(str1):
+#    print((reversed(str1)).swapcase())
 
-print(reverseAll("Hello World"))
-print(reverseAll("Reverse"))
-print(reverseAll("Radar"))
+def reverserMyWay(str1):
+    def swapcaseMy(stringInput):
+        a = []
+        for i in range(0, len(str1)):
+            b = str1[i]
+            if b.isupper() == True:
+                a.append(str1[i].lower())
+            elif b.islower() == True:
+                a.append(str1[i].upper())
+            else:
+                a.append(str1[i])
+        reversed = a[::-1]
+        for i in reversed:
+            print(i, end="")
+    return (str(swapcaseMy(str1)))
 
-# The program is complete.
+
+print(reverserMyWay("Hello World"))
+print(reverserMyWay("Reverse"))
+print(reverserMyWay("Radar"))
+#print(reverserMyWay("Hello World"))
+#print(reverseAll("Reverse"))
+#print(reverseAll("Radar"))
+
