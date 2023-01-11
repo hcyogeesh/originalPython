@@ -48,3 +48,14 @@ _________
 """
 # Your code should go here:
 
+def numLayers(folds):
+    totalFoldingThickness = 0.5 * (2**(folds))
+    inMetres = "{0}m".format(totalFoldingThickness/1000)
+    inMilliMetres = "{0}mm".format(totalFoldingThickness)
+    return ("Paper folded {0} times is {1} which is equal to {2}".format(folds, inMilliMetres, inMetres))
+
+print(numLayers(1))
+print(numLayers(4))
+print(numLayers(21))
+
+# The program is complete.
