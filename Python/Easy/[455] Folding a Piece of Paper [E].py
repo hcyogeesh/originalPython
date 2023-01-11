@@ -1,7 +1,8 @@
 """
 ##Folding a Piece of Paper
 
-Create a function that returns the thickness (in meters) of a piece of paper after folding it n number of times. The paper starts off with a thickness of 0.5mm.
+Create a function that returns the thickness (in meters) of a piece of paper after folding it n number of times.
+The paper starts off with a thickness of 0.5mm.
 
 
 [Examples]
@@ -28,7 +29,7 @@ ___
 
 
 
-[algebra] [formatting] [math] [numbers] 
+[algebra] [formatting] [math] [numbers]
 
 
 
@@ -44,6 +45,6 @@ Millimeters to Meters Conversion
 https://www.metric-conversions.org/length/millimeters-to-meters.htm
 Fractional results are rounded to the nearest 1/64. For a more accurate answer please select "decimal" from the options above the result.
 _________
-""" 
+"""
 # Your code should go here:
 

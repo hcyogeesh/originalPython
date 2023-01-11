@@ -27,4 +27,4 @@
 27. E = 438 - Solve the given problem, efficiently.
 28. E = 445 - Find the Odd Integer[E].py (Should do it as soon as possible, reason it is almost done, you know.)
 29. E = 448 - The Reverser memory address issue and print None return issue.
-30.
+30. E = 454 - Check it out. Is is properly done or not?

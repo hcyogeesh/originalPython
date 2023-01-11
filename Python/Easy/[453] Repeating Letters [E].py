@@ -21,7 +21,7 @@ _____
 All test cases contain valid strings. Don't worry about spaces, special characters or numbers. They're all considered valid characters.
 
 
-[formatting] [strings] 
+[formatting] [strings]
 
 
 
@@ -47,6 +47,19 @@ Strings
 https://docs.python.org/3/tutorial/introduction.html#strings
 Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ('...') or double quotes ("...") with …
 _________
-""" 
+"""
 # Your code should go here:
 
+def doubleChar(str1):
+    result = []
+    for i in str1:
+        result.append(i)
+        result.append(i)
+    returnResult = "".join(result)
+    return returnResult
+
+print(doubleChar("String."))
+print(doubleChar("Hello World!"))
+print(doubleChar("1234!-"))
+
+# The program is complete.

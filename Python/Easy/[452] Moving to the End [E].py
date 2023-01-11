@@ -51,10 +51,9 @@ def moveToEnd(list1, toMove):
     for i in list1:
         if i != toMove:
             extraRemaining.append(i)
-    print(extraRemaining)
     nowAppendToMove = extraRemaining
     for j in list1:
-        if j not in extraRemaining:
+        if j == toMove:
             nowAppendToMove.append(j)
     return nowAppendToMove
 
@@ -62,4 +61,4 @@ print(moveToEnd([1, 3, 2, 4, 4, 1], 1))
 print(moveToEnd([7, 8, 9, 1, 2, 3, 4], 9))
 print(moveToEnd(["a", "a", "a", "b"], "a"))
 
-# The program is ?
+# The program is complete.

@@ -28,7 +28,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [logic] 
+[conditions] [language_fundamentals] [logic]
 
 
 
@@ -64,6 +64,21 @@ isinstance() Method
 https://docs.python.org/3/library/functions.html#isinstance
 Return True if the object argument is an instance of the classinfo argument, or of a (direct, indirect or virtual) subclass thereof. If object is not an object of the g …
 _________
-""" 
+"""
 # Your code should go here:
 
+def reverseBoolOnly(bool1):
+    if type(bool1) == bool:
+        if bool1 == True:
+            return False
+        elif bool1 == False:
+            return True
+    else:
+        return "Boolean Expected"
+
+print(reverseBoolOnly(True))
+print(reverseBoolOnly(False))
+print(reverseBoolOnly(0))
+print(reverseBoolOnly(None))
+
+# The program is complete.
