@@ -30,7 +30,7 @@ ___
 
 
 
-[formatting] [strings] 
+[formatting] [strings]
 
 
 
@@ -81,6 +81,6 @@ Check if any character of a string is uppercase Python?
 http://stackoverflow.com/questions/33883512/check-if-any-character-of-a-string-is-uppercase-python
 Say I have a string word. This string can change what characters it contains. e.g. word = "UPPER£CASe" How would I test the string to see if any character in the str …
 _________
-""" 
+"""
 # Your code should go here:
 
