@@ -25,7 +25,7 @@ ___
 
 
 
-[algorithms] [interview] [math] [numbers] [sorting] 
+[algorithms] [interview] [math] [numbers] [sorting]
 
 
 
@@ -56,6 +56,16 @@ Python Set | difference()
 https://www.geeksforgeeks.org/python-set-difference/
 The difference between the two sets in Python is equal to the difference between the number of elements in two sets. The function difference() returns a set that is the …
 _________
-""" 
+"""
 # Your code should go here:
 
+def missingNum(list1):
+    for i in range (1, 10 + 1):
+        if i not in list1:
+            return i
+
+print(missingNum([1, 2, 3, 4, 6, 7, 8, 9, 10]))
+print(missingNum([7, 2, 3, 6, 5, 9, 1, 4, 8]))
+print(missingNum([10, 5, 1, 2, 4, 6, 8, 3, 9]))
+
+# The program is complete.
