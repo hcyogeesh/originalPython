@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[arrays] [bugs] 
+[arrays] [bugs]
 
 
 
@@ -47,6 +47,8 @@ Python Nested List
 https://www.learnbyexample.org/python-nested-list/
 A list can contain any sort object, even another list (sublist), which in turn can contain sublists themselves, and so on. This is known as nested list. You can use th …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+# After reading the resources it will be solved.
