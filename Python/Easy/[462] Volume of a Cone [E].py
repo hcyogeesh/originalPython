@@ -82,3 +82,14 @@ _________
 """
 # Your code should go here:
 
+import math
+#pi*r**2(h/3)
+def coneVolume(height, radius):
+    coneFormula = math.pi * (pow(radius, 2)) * (height/3)
+    return round(coneFormula, 2)
+
+print(coneVolume(3, 2))
+print(coneVolume(15, 6))
+print(coneVolume(18, 0))
+
+# The program is complete.

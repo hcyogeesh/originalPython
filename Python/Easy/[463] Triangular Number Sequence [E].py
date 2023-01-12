@@ -27,7 +27,7 @@ _____
 Check the Resources for info on triangular number sequence.
 
 
-[algebra] [algorithms] [loops] [math] 
+[algebra] [algorithms] [loops] [math]
 
 
 
@@ -53,6 +53,17 @@ Triangular Number
 https://en.wikipedia.org/wiki/Triangular_number
 A triangular number or triangle number counts objects arranged in an equilateral triangle (thus triangular numbers are a type of figurate numbers, other examples being …
 _________
-""" 
+"""
 # Your code should go here:
 
+def triSeq(int1):
+    sum = 0
+    for i in range(0, int1+1):
+        sum += i
+    return sum
+
+print(triSeq(1))
+print(triSeq(6))
+print(triSeq(215))
+
+# The program is complete.
