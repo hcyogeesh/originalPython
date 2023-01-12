@@ -1,7 +1,8 @@
 """
 ##Return the Index of All Capital Letters
 
-Create a function that takes a single string as argument and returns an ordered list containing the indices of all capital letters in the string.
+Create a function that takes a single string as argument and returns an ordered list containing the indices of all
+capital letters in the string.
 
 
 [Examples]
@@ -84,3 +85,19 @@ _________
 """
 # Your code should go here:
 
+def indexOfCaps(str1):
+    indexList = []
+    for i in str1:
+        if i.isupper() == True:
+            indexList.append(str1.index(i))
+        else:
+            pass
+    return indexList
+
+print(indexOfCaps("eDaBiT"))
+print(indexOfCaps("eQuINoX"))
+print(indexOfCaps("determine"))
+print(indexOfCaps("STRIKE"))
+print(indexOfCaps("sUn"))
+
+# The program is complete.
