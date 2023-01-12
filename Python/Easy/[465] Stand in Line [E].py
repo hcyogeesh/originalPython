@@ -1,7 +1,8 @@
 """
 ##Stand in Line
 
-Write a function that takes a list and a number as arguments. Add the number to the end of the list, then remove the first element of the list. The function should then return the updated list.
+Write a function that takes a list and a number as arguments. Add the number to the end of the list,
+then remove the first element of the list. The function should then return the updated list.
 
 
 [Examples]
@@ -23,7 +24,7 @@ _____
 For an empty list input, return: "No list has been selected"
 
 
-[arrays] [conditions] [numbers] 
+[arrays] [conditions] [numbers]
 
 
 
@@ -64,6 +65,20 @@ pop() Method
 https://www.w3schools.com/python/ref_list_pop.asp
 Removes the element at the specified position.
 _________
-""" 
+"""
 # Your code should go here:
 
+def nextInLine(list1, int1):
+    if len(list1) > 0:
+        del list1[0]
+        list1.append(int1)
+        return list1
+    else:
+        return "No list has been selected."
+
+print(nextInLine([5, 6, 7, 8, 9], 1))
+print(nextInLine([7, 6, 3, 23, 17], 10))
+print(nextInLine([1, 10, 20, 42], 6))
+print(nextInLine([], 6))
+
+# The program is complete.

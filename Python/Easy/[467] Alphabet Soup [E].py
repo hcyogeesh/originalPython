@@ -25,7 +25,7 @@ _____
 You can assume numbers and punctuation symbols won't be included in test cases. You'll only have to deal with single word, alphabetic characters.
 
 
-[formatting] [sorting] [strings] 
+[formatting] [sorting] [strings]
 
 
 
@@ -56,6 +56,21 @@ Video Walk Through of Challenge
 https://www.youtube.com/watch?v=vda8JZbXVq8
 In this video, you will learn how to solve these problems in Python: 0:15 Correct Inequality Signs, 2:25 Alphabet Soup, 5:21 The Museum of Incredibly DULL Things.
 _________
-""" 
+"""
 # Your code should go here:
 
+def alphabetSoup(str1):
+    list1 = []
+    for i in str1:
+        list1.append(i)
+    list1.sort()
+    result = "".join(list1)
+    return result
+
+print(alphabetSoup("hello"))
+print(alphabetSoup("edabit"))
+print(alphabetSoup("hacker"))
+print(alphabetSoup("geek"))
+print(alphabetSoup("javascript"))
+
+# The program is complete.
