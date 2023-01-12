@@ -21,7 +21,7 @@ _____
 Don't overthink this one.
 
 
-[arrays] [conditions] [loops] [strings] 
+[arrays] [conditions] [loops] [strings]
 
 
 
@@ -77,6 +77,18 @@ Check if a Variable Is String
 https://www.geeksforgeeks.org/python-check-if-a-variable-is-string/
 While working with different datatypes, we might come across a time, where we need to test the datatype for its nature. This article gives ways to test a variable again …
 _________
-""" 
+"""
 # Your code should go here:
 
+def filterList(list1):
+    listPrint = []
+    for i in list1:
+        if isinstance(i, (float, int)) == True:
+            listPrint.append(i)
+    return listPrint
+
+print(filterList([1, 2, 3, "a", "b", 4]))
+print(filterList(["A", 0, "Edabit", 1729, "Python", "1729"]))
+print(filterList(["Nothing", "here"]))
+
+# The program is complete.

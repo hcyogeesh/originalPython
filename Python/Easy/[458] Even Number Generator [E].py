@@ -16,8 +16,8 @@ _____
 
 Try to use list comprehensions in your solution. Here's an example:
 ___
-vals = [expression 
-  for value in collection 
+vals = [expression
+  for value in collection
     if condition]
 _____
 
@@ -40,7 +40,7 @@ ___
 
 
 
-[arrays] [conditions] [numbers] 
+[arrays] [conditions] [numbers]
 
 
 
@@ -66,6 +66,15 @@ Python Program to Print Odd Numbers in a List
 https://www.geeksforgeeks.org/python-program-to-print-odd-numbers-in-a-list/
 Given a list of numbers, write a Python program to print all odd numbers in given list.
 _________
-""" 
+"""
 # Your code should go here:
 
+def myMethod(int1):
+    listPrint = []
+    for i in range(0, int1 + 1, 2):
+        listPrint.append(i)
+    return listPrint[1:]
+
+print(myMethod(8))
+print(myMethod(4))
+print(myMethod(2))
