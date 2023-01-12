@@ -26,7 +26,7 @@ ___
 
 
 
-[language_fundamentals] [math] [numbers] [recursion] 
+[language_fundamentals] [math] [numbers] [recursion]
 
 
 
@@ -62,6 +62,17 @@ Thinking Recursively
 https://realpython.com/python-thinking-recursively/#recursive-functions-in-python
 Learn how to work with recursion in your Python programs by mastering concepts such as recursive functions and recursive data structures.
 _________
-""" 
+"""
 # Your code should go here:
 
+def recursiveSum(int1):
+    count = 0
+    for i in range (0, int1+1):
+        count += i
+    return count
+
+print(recursiveSum(5))
+print(recursiveSum(1))
+print(recursiveSum(12))
+
+# The program is complete.
