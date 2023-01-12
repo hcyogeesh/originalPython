@@ -1,7 +1,8 @@
 """
 ##Volume of a Cone
 
-Create a function that takes the height and radius of a cone as arguments and returns the volume of the cone rounded to the nearest hundredth. See the resources tab for the formula.
+Create a function that takes the height and radius of a cone as arguments and returns the volume of the
+cone rounded to the nearest hundredth. See the resources tab for the formula.
 
 
 
@@ -27,7 +28,7 @@ ___
 
 
 
-[geometry] [math] [numbers] 
+[geometry] [math] [numbers]
 
 
 
@@ -78,6 +79,6 @@ Formula for Right Circular Cone
 https://www.google.com/search?q=formula+for+right+circular+cone&rlz=1C1GCEB_enHK918HK918&ei=CiH1YN-WGdKN-Ab17ISACw&oq=formula+for+right+cir&gs_lcp=Cgdnd3Mtd2l6EAMYADICCAAyAggAMgIIADIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgQIABBDOggIABCxAxCDAToICC4QsQMQgwFKBAhBGABQ5XBY94oBYLeVAWgAcAJ4AYABiwWIAbIckgEMMC4yMC4wLjEuMC4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&safe=active&ssui=on
 The top infobox should contain an interactive diagram that explains the formula to get the volume of a right circular cone.
 _________
-""" 
+"""
 # Your code should go here:
 

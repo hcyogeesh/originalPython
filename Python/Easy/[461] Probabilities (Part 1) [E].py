@@ -1,7 +1,9 @@
 """
 ##Probabilities (Part 1)
 
-Given a list of numbers and a value n, write a function that returns the probability of choosing a number greater than or equal to n from the list. The probability should be expressed as a percentage, rounded to one decimal place.
+Given a list of numbers and a value n, write a function that returns the probability of choosing
+a number greater than or equal to n from the list.
+The probability should be expressed as a percentage, rounded to one decimal place.
 
 
 [Examples]
@@ -25,7 +27,7 @@ ___
 
 
 
-[arrays] [math] 
+[arrays] [math]
 
 
 
@@ -51,6 +53,19 @@ sum() Function
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum. In this tutorial, we will learn about the sum() function with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+def probability(list1, n):
+    collectMoreThan = []
+    for i in list1:
+        if i >=n:
+            collectMoreThan.append(i)
+    probablity = round(int(100 * (len(collectMoreThan))  / (len(list1))),1)
+    return probability
+
+print(probability([5, 1, 8, 9], 6))
+print(probability([7, 4, 17, 14, 12, 3], 16))
+print(probability([4, 6, 2, 9, 15, 18, 8, 2, 10, 8], 6))
+
+# Memory address error while printing.

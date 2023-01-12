@@ -1,7 +1,8 @@
 """
 ##Add the Index
 
-Given a list of numbers, create a function which returns the list but with each element's index in the list added to itself. This means you add 0 to the number at index 0, add 1 to the number at index 1, etc...
+Given a list of numbers, create a function which returns the list but with each element's index in the list added to itself.
+This means you add 0 to the number at index 0, add 1 to the number at index 1, etc...
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 You'll only get numbers in the list.
 
 
-[arrays] [language_fundamentals] [loops] [numbers] 
+[arrays] [language_fundamentals] [loops] [numbers]
 
 
 
@@ -42,6 +43,19 @@ enumerate() Method
 https://www.tutorialspoint.com/enumerate-in-python
 When using the iterators, we need to keep track of the number of items in the iterator. This is achieved by an in-built method called en ...
 _________
-""" 
+"""
 # Your code should go here:
 
+def addIndex(list1):
+    plus1 = -1
+    printList = []
+    for i in list1:
+        plus1 += 1
+        printList.append(i+plus1)
+    return printList
+
+print(addIndex([0, 0, 0, 0, 0]))
+print(addIndex([1, 2, 3, 4, 5]))
+print(addIndex([5, 4, 3, 2, 1]))
+
+# The program is complete.
