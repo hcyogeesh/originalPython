@@ -83,3 +83,18 @@ _________
 """
 # Your code should go here:
 
+def isValid(intstr1):
+    if len(intstr1) == 4 or len(intstr1) == 6:
+        if intstr1.isdigit() == True:
+            return True
+        else:
+            return False
+    else:
+        return False
+
+print(isValid("1234"))
+print(isValid("12345"))
+print(isValid("a234"))
+print(isValid(""))
+
+# The program is complete.
