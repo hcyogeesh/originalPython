@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[arrays] [language_fundamentals] [loops] [sorting] 
+[arrays] [language_fundamentals] [loops] [sorting]
 
 
 
@@ -54,6 +54,19 @@ Extract Integers From Mixed List
 https://stackoverflow.com/questions/26725535/python-extract-integers-from-mixed-list
 How to extract integers from a mixed list in Python.
 _________
-""" 
+"""
 # Your code should go here:
 
+def onlyInt(list1):
+    result = []
+    for ele in list1:
+        if isinstance(ele, int) and not isinstance(ele, bool):
+            result.append(ele)
+    return result
+
+print(onlyInt([9, 2, "space", "car", "lion", 16]))
+print(onlyInt(["hello", 81, "basketball", 123, "fox"]))
+print(onlyInt([10, "121", 56, 20, "car", 3, "lion"]))
+print(onlyInt(["String",  True,  3.3,  1]))
+
+# The program is complete.
