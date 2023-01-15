@@ -30,7 +30,7 @@ _____
 N/A
 
 
-[arrays] [control_flow] 
+[arrays] [control_flow]
 
 
 
@@ -46,6 +46,9 @@ format() Method
 https://www.geeksforgeeks.org/python-format-function/
 One of the string formatting methods in Python3, which allows multiple substitutions and value formatting. This method lets us concatenate elements within a string thro …
 _________
-""" 
+"""
 # Your code should go here:
 
+def chatroomStatus(list1):
+    if len(list1) == 0:
+        return "No one online."
