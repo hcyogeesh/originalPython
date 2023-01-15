@@ -1,8 +1,10 @@
 """
 ##Compound Interest
 
-Suppose that you invest $10,000 for 10 years at an interest rate of 6% compounded monthly. What will be the value of your investment at the end of the 10 year period?
-Create a function that accepts the principal p, the term in years t, the interest rate r, and the number of compounding periods per year n. The function returns the value at the end of term rounded to the nearest cent.
+Suppose that you invest $10,000 for 10 years at an interest rate of 6% compounded monthly.
+What will be the value of your investment at the end of the 10 year period?
+Create a function that accepts the principal p, the term in years t, the interest rate r,
+and the number of compounding periods per year n. The function returns the value at the end of term rounded to the nearest cent.
 For the example above:
 ___
 compound_interest(10000, 10, 0.06, 12) ➞ 18193.97
@@ -28,7 +30,7 @@ _____
 See the Resource for the interest formula and more information.
 
 
-[algebra] [math] 
+[algebra] [math]
 
 
 
@@ -64,6 +66,8 @@ What is compound interest?
 https://www.fool.com/knowledge-center/compound-interest.aspx
 When it comes to calculating interest, there are two basic choices: simple and compound. Simple interest simply means a set percentage of the principal every year, and …
 _________
-""" 
+"""
 # Your code should go here:
+
+def compountInterest():
 
