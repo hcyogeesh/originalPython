@@ -10,7 +10,8 @@ ___
 compound_interest(10000, 10, 0.06, 12) ➞ 18193.97
 _____
 
-Note that the interest rate is given as a decimal and n=12 because with monthly compounding there are 12 periods per year. Compounding can also be done annually, quarterly, weekly, or daily.
+Note that the interest rate is given as a decimal and n=12 because with monthly compounding there are
+12 periods per year. Compounding can also be done annually, quarterly, weekly, or daily.
 
 
 [Examples]
@@ -69,5 +70,13 @@ _________
 """
 # Your code should go here:
 
-def compountInterest():
+def compoundInterest(principal, terms, rate, compPeriodsPerYear):
+# p,terms in years, r, compounding periods per year n
+    amount = principal*(1+(rate/compPeriodsPerYear))**(terms*compPeriodsPerYear)
+    return round(amount,2)
 
+print(compoundInterest(100, 1, 0.05, 1))
+print(compoundInterest(3500, 15, 0.1, 4))
+print(compoundInterest(100000, 20, 0.15, 365))
+
+# The program is complete.
