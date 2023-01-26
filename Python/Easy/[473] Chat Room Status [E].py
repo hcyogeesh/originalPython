@@ -49,6 +49,27 @@ _________
 """
 # Your code should go here:
 
+# We can solve it using two methods.
+# 1. Match case.
+# 2. If else.
+
 def chatroomStatus(list1):
     if len(list1) == 0:
         return "No one online."
+    if len(list1) == 1:
+        return "{} online".format(list1[0])
+    if len(list1) == 2:
+        return "{0} and {1} online.".format(list[0], list[1])
+    if len(list1) > 2:
+        return "{0} and {1} and {} others online.".format(list[0], list[1], (len(list1)) - 2)
+
+
+def chatroomStatusMatch(list1):
+    match (len(list1)):
+        case 0:
+            return "No one online."
+        case 1:
+            return "{} online".format(list1[0])
+        case 2:
+            return "{0} and {1} online.".format(list[0], list[1])
+        case # More then 2 then what to do about it?
