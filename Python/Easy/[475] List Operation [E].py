@@ -8,7 +8,8 @@ ___
 *) n is the divisor to be checked against.
 ___
 
-Return an ordered list with numbers in the range that are divisible by the third parameter n. Return an empty list if there are no numbers that are divisible by n.
+Return an ordered list with numbers in the range that are divisible by the third parameter n.
+Return an empty list if there are no numbers that are divisible by n.
 
 
 [Examples]
@@ -28,7 +29,7 @@ _____
 N/A
 
 
-[arrays] [math] [numbers] 
+[arrays] [math] [numbers]
 
 
 
@@ -49,6 +50,15 @@ filter(function, iterable)
 https://docs.python.org/3/library/functions.html#filter
 Construct an iterator from those elements of iterable for which function returns true. iterable may be either a sequence, a container which supports iteration, or an it …
 _________
-""" 
+"""
 # Your code should go here:
 
+def listOperation(start, end, divisor):
+    list1 = []
+    for i in range(start, end, divisor):
+        list1.append(i)
+    return list1
+
+print(listOperation(1, 10, 3))
+print(listOperation(7, 9, 2))
+print(listOperation(15, 20, 7))
